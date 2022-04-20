@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Aertssen.Framework.Core" Version="1.0.4" />
+		<PackageReference Include="Aertssen.Framework.Templates" Version="1.0.4">
+			<GeneratePathProperty>true</GeneratePathProperty>
+		</PackageReference>
+	</ItemGroup>
+
+	<PropertyGroup>
+		<TemplatesFolder>$(PkgAertssen_Framework_Templates)</TemplatesFolder>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<T4ParameterValues Include="TemplatesFolder">
+			<Value>$(TemplatesFolder)</Value>
+		</T4ParameterValues>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="T4\ModelBuilders.tt">
+			<Generator>TextTemplatingFileGenerator</Generator>
+			<LastGenOutput>ModelBuilders.cs</LastGenOutput>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="T4\ModelBuilders.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>ModelBuilders.tt</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Api\**" />
+    <EmbeddedResource Remove="Api\**" />
+    <None Remove="Api\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aertssen.Framework.Templates" Version="1.0.4">
+      <GeneratePathProperty>true</GeneratePathProperty>
+    </PackageReference>
+    <PackageReference Include="Aertssen.Framework.Tests" Version="1.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\MyTemplate.Api.Contracts\MyTemplate.Api.Contracts.csproj" />
+    <ProjectReference Include="..\..\MyTemplate.Core\MyTemplate.Core.csproj" />
+    <ProjectReference Include="..\..\MyTemplate.Domain\MyTemplate.Domain.csproj" />
+  </ItemGroup>
+
+	<PropertyGroup>
+		<TemplatesFolder>$(PkgAertssen_Framework_Templates)</TemplatesFolder>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<T4ParameterValues Include="TemplatesFolder">
+			<Value>$(TemplatesFolder)</Value>
+		</T4ParameterValues>
+	</ItemGroup>
+  <ItemGroup>
+    <None Update="T4\ApiBuilder.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ApiBuilder.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="T4\ApiBuilder.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ApiBuilder.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

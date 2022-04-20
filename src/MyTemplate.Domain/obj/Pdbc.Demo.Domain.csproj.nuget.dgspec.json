@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\code\\pdbc\\Pdbc.Demo\\Pdbc.Demo.Domain\\Pdbc.Demo.Domain.csproj": {}
+  },
+  "projects": {
+    "D:\\code\\pdbc\\Pdbc.Demo\\Pdbc.Demo.Domain\\Pdbc.Demo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\code\\pdbc\\Pdbc.Demo\\Pdbc.Demo.Domain\\Pdbc.Demo.Domain.csproj",
+        "projectName": "Pdbc.Demo.Domain",
+        "projectPath": "D:\\code\\pdbc\\Pdbc.Demo\\Pdbc.Demo.Domain\\Pdbc.Demo.Domain.csproj",
+        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
+        "outputPath": "D:\\code\\pdbc\\Pdbc.Demo\\Pdbc.Demo.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "D:\\development\\nuget": {},
+          "D:\\development\\nuget\\Aertssen": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Core": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Aertssen.Framework.Templates": {
+              "target": "Package",
+              "version": "[1.0.4, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

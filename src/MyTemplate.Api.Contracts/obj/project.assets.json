@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Aertssen.Framework.Api.Contracts/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Aertssen.Framework.Api.Contracts.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Aertssen.Framework.Api.Contracts.dll": {}
+        }
+      },
+      "MyTemplate.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MyTemplate.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyTemplate.Dto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Aertssen.Framework.Api.Contracts/1.0.4": {
+      "sha512": "3Xnt7noNn5QzqVueq41BIYhQsV9UWFV6pmWU5jva2IgyAV7nwAupU5AI5SjB6z9vW1/ZwDu1eUFqx9hWtYhz3w==",
+      "type": "package",
+      "path": "aertssen.framework.api.contracts/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        "aertssen.framework.api.contracts.1.0.4.nupkg.sha512",
+        "aertssen.framework.api.contracts.nuspec",
+        "lib/net5.0/Aertssen.Framework.Api.Contracts.dll",
+        "lib/netcoreapp3.1/Aertssen.Framework.Api.Contracts.dll"
+      ]
+    },
+    "MyTemplate.Dto/1.0.0": {
+      "type": "project",
+      "path": "../MyTemplate.Dto/MyTemplate.Dto.csproj",
+      "msbuildProject": "../MyTemplate.Dto/MyTemplate.Dto.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Aertssen.Framework.Api.Contracts >= 1.0.4",
+      "MyTemplate.Dto >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\patri\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj",
+      "projectName": "MyTemplate.Api.Contracts",
+      "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj",
+      "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
+      "outputPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "D:\\development\\nuget": {},
+        "D:\\development\\nuget\\Aertssen": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj": {
+              "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Aertssen.Framework.Api.Contracts": {
+            "target": "Package",
+            "version": "[1.0.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

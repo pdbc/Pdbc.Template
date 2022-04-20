@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Core\BusinessRules\**" />
+    <Compile Remove="Core\CQRS\Reservations\Store\**" />
+    <Compile Remove="Core\Validators\**" />
+    <EmbeddedResource Remove="Core\BusinessRules\**" />
+    <EmbeddedResource Remove="Core\CQRS\Reservations\Store\**" />
+    <EmbeddedResource Remove="Core\Validators\**" />
+    <None Remove="Core\BusinessRules\**" />
+    <None Remove="Core\CQRS\Reservations\Store\**" />
+    <None Remove="Core\Validators\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Core\CQRS\Reservations\List\" />
+    <Folder Include="Domain\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aertssen.Framework.Tests" Version="1.0.4" />
+    <PackageReference Include="Aertssen.Framework.Tests.Infra" Version="1.0.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\MyTemplate.Core\MyTemplate.Core.csproj" />
+    <ProjectReference Include="..\MyTemplate.Tests.Helpers\MyTemplate.Tests.Helpers.csproj" />
+  </ItemGroup>
+
+</Project>

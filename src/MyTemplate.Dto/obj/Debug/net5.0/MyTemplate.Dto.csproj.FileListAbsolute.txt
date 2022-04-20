@@ -1,0 +1,12 @@
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Dto\bin\Debug\net5.0\MyTemplate.Dto.deps.json
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Dto\bin\Debug\net5.0\MyTemplate.Dto.dll
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Dto\bin\Debug\net5.0\MyTemplate.Dto.pdb
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Dto\obj\Debug\net5.0\MyTemplate.Dto.csproj.AssemblyReference.cache
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Dto\obj\Debug\net5.0\MyTemplate.Dto.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Dto\obj\Debug\net5.0\MyTemplate.Dto.AssemblyInfoInputs.cache
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Dto\obj\Debug\net5.0\MyTemplate.Dto.AssemblyInfo.cs
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Dto\obj\Debug\net5.0\MyTemplate.Dto.csproj.CoreCompileInputs.cache
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Dto\obj\Debug\net5.0\MyTemplate.Dto.dll
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Dto\obj\Debug\net5.0\refint\MyTemplate.Dto.dll
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Dto\obj\Debug\net5.0\MyTemplate.Dto.pdb
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Dto\obj\Debug\net5.0\ref\MyTemplate.Dto.dll

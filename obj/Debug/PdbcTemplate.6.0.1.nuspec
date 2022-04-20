@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PdbcTemplate</id>
+    <version>6.0.1</version>
+    <title>Pdbc Api Template</title>
+    <authors>Patrick De Boeck</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/Pdbc/Pdbc.Template</projectUrl>
+    <description>Package Description</description>
+    <copyright>Patrick De Boeck © 2022</copyright>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <repository type="git" url="https://github.com/Pdbc/Pdbc.Template" />
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\code\pdbc\Pdbc.Template\src\.template_config\template.json" target="content\src\.template_config\template.json" />
+    <file src="D:\code\pdbc\Pdbc.Template\src\.vs\Pdbc.Template\v17\.suo" target="content\src\.vs\Pdbc.Template\v17\.suo" />
+    <file src="D:\code\pdbc\Pdbc.Template\src\Pdbc.Template.Domain\Model\Property.cs" target="content\src\Pdbc.Template.Domain\Model\Property.cs" />
+    <file src="D:\code\pdbc\Pdbc.Template\src\Pdbc.Template.Domain\Model\Reservation.cs" target="content\src\Pdbc.Template.Domain\Model\Reservation.cs" />
+    <file src="D:\code\pdbc\Pdbc.Template\src\Pdbc.Template.Domain\Model\ReservationStatusEnum.cs" target="content\src\Pdbc.Template.Domain\Model\ReservationStatusEnum.cs" />
+    <file src="D:\code\pdbc\Pdbc.Template\src\Pdbc.Template.Domain\Pdbc.Template.Domain.csproj" target="content\src\Pdbc.Template.Domain\Pdbc.Template.Domain.csproj" />
+    <file src="D:\code\pdbc\Pdbc.Template\src\Pdbc.Template.Domain\T4\ModelBuilders.cs" target="content\src\Pdbc.Template.Domain\T4\ModelBuilders.cs" />
+    <file src="D:\code\pdbc\Pdbc.Template\src\Pdbc.Template.Domain\T4\ModelBuilders.tt" target="content\src\Pdbc.Template.Domain\T4\ModelBuilders.tt" />
+    <file src="D:\code\pdbc\Pdbc.Template\src\Pdbc.Template.Domain\Validations\ValidationConstants.cs" target="content\src\Pdbc.Template.Domain\Validations\ValidationConstants.cs" />
+    <file src="D:\code\pdbc\Pdbc.Template\src\Pdbc.Template.sln" target="content\src\Pdbc.Template.sln" />
+  </files>
+</package>

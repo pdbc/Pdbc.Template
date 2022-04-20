@@ -1,0 +1,35 @@
+﻿<#@ template language="C#" debug="false" hostspecific="true" #>
+<#@ output extension=".cs" #>
+<#@ assembly name="System" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Data.Entity" #>
+<#@ assembly name="EnvDTE" #>
+
+<#@ import namespace="EnvDTE" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.Collections" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Reflection" #>
+
+<#@ include file="$(TemplatesFolder)\T4\Utilities-Project.tt" #>
+<#@ include file="$(TemplatesFolder)\T4\Utilities-Classes.tt" #>
+<#@ include file="$(TemplatesFolder)\T4\Utilities.tt" #>
+<#@ include file="$(TemplatesFolder)\T4\Templates-Builder.tt" #>
+<#
+
+    var project = GetProjectByName("MyTemplate.Api.Contracts");
+    var classes = GetApiContractClasses(project); 
+#>
+using System;
+using System.Linq;
+
+using Aertssen.Framework.Core.Builders;
+
+<# 
+	foreach(var c in classes)
+	{        
+		var properties = GetAllPropertiesAndInheritedProperties(c, classes);        
+        GenerateObjectBuilderTemplate(c, properties, classes);
+    }
+#>

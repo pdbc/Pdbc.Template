@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CQRS\MyEntity\Store\**" />
+    <EmbeddedResource Remove="CQRS\MyEntity\Store\**" />
+    <None Remove="CQRS\MyEntity\Store\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="CQRS\MyEntity\Store\StoreMyEntityCommand.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aertssen.Framework.Templates" Version="1.0.4">
+      <GeneratePathProperty>true</GeneratePathProperty>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+  </ItemGroup>
+
+
+	<PropertyGroup>
+		<TemplatesFolder>$(PkgAertssen_Framework_Templates)</TemplatesFolder>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+	  <ProjectReference Include="..\MyTemplate.Data\MyTemplate.Data.csproj" />
+	  <ProjectReference Include="..\MyTemplate.Domain\MyTemplate.Domain.csproj" />
+	  <ProjectReference Include="..\MyTemplate.Dto\MyTemplate.Dto.csproj" />
+	  <ProjectReference Include="..\MyTemplate.I18N\MyTemplate.I18N.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<T4ParameterValues Include="TemplatesFolder">
+			<Value>$(TemplatesFolder)</Value>
+		</T4ParameterValues>
+	</ItemGroup>
+
+  <ItemGroup>
+    <None Update="T4\CqrsClassesBuilders.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>CqrsClassesBuilders.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="T4\CqrsClassesBuilders.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CqrsClassesBuilders.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

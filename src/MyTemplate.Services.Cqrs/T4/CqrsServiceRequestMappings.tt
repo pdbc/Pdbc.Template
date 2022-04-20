@@ -1,0 +1,27 @@
+﻿<#@ template language="C#" debug="false" hostspecific="true" #>
+<#@ output extension=".cs" #>
+<#@ assembly name="System" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Data.Entity" #>
+<#@ assembly name="EnvDTE" #>
+<#@ import namespace="EnvDTE" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.Collections" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Reflection" #>
+<#@ include file="$(TemplatesFolder)\T4\Utilities-Classes.tt" #>
+<#@ include file="$(TemplatesFolder)\T4\Utilities-Project.tt" #>
+<#@ include file="$(TemplatesFolder)\T4\Utilities.tt" #>
+<#@ include file="$(TemplatesFolder)\T4\Templates-Mapper.tt" #>
+<#
+    
+    // Setup variables for using throughout the script.
+    var cqrsProject = GetProjectByName("MyTemplate.Core");
+    var cqrsClasses = GetCqrsClasses(cqrsProject); 
+
+    var apiContractProject = GetProjectByName("MyTemplate.Api.Contracts");
+    var apiContractClasses = GetApiContractClasses(apiContractProject); 
+
+    GenerateRequestCqrsMappings("CqrsService", apiContractClasses, cqrsClasses);
+#>

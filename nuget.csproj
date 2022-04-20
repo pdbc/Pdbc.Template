@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageOutputPath>.</PackageOutputPath>  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="src\**\*" Exclude="**\bin\**\*;**\obj\**\*" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <Version>1.0.1</Version>
+    <PackageId>PdbcTemplate</PackageId>
+    <Title>Pdbc Api Template</Title>
+    <Company>Patrick De Boeck</Company>
+    <Authors>Patrick De Boeck</Authors>
+    <Copyright>Patrick De Boeck © 2022</Copyright>
+    <Description></Description>
+    <PackageTags></PackageTags>
+    <PackageCopyright>Patrick De Boeck © 2022</PackageCopyright>
+    <PackageProjectUrl>https://github.com/Pdbc/Pdbc.Template</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Pdbc/Pdbc.Template</RepositoryUrl>
+  </PropertyGroup>
+</Project>

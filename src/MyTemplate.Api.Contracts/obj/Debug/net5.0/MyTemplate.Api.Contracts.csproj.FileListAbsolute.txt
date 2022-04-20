@@ -1,0 +1,15 @@
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\bin\Debug\net5.0\MyTemplate.Api.Contracts.deps.json
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\bin\Debug\net5.0\MyTemplate.Api.Contracts.dll
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\bin\Debug\net5.0\MyTemplate.Api.Contracts.pdb
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\bin\Debug\net5.0\MyTemplate.Dto.dll
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\bin\Debug\net5.0\MyTemplate.Dto.pdb
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\obj\Debug\net5.0\MyTemplate.Api.Contracts.csproj.AssemblyReference.cache
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\obj\Debug\net5.0\MyTemplate.Api.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\obj\Debug\net5.0\MyTemplate.Api.Contracts.AssemblyInfoInputs.cache
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\obj\Debug\net5.0\MyTemplate.Api.Contracts.AssemblyInfo.cs
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\obj\Debug\net5.0\MyTemplate.Api.Contracts.csproj.CoreCompileInputs.cache
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\obj\Debug\net5.0\MyTemplate.Api.Contracts.csproj.CopyComplete
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\obj\Debug\net5.0\MyTemplate.Api.Contracts.dll
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\obj\Debug\net5.0\refint\MyTemplate.Api.Contracts.dll
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\obj\Debug\net5.0\MyTemplate.Api.Contracts.pdb
+D:\code\pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\obj\Debug\net5.0\ref\MyTemplate.Api.Contracts.dll

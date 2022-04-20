@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Patrick De Boeck",
+  "classifications": [ "ASP.NET Core", "Api", "Angular", "Template" ],
+  "identity": "Pdbc.Template",
+  "name": "Pdbc Core Template",
+  "shortName": "pdbc-api-core",
+
+  "sourceName": "MyTemplate",
+
+  "symbols": {
+    "skipRestore": {
+      "type": "parameter",
+      "datatype": "bool",
+      "description": "If specified, skips the automatic restore of the project on create.",
+      "defaultValue": "false"
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [ "src/.vs/**", ".template_config/**" ]
+        }
+      ]
+    }
+  ]
+}

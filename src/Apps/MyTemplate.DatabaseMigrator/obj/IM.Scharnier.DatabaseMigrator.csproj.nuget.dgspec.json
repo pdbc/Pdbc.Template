@@ -1,0 +1,267 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\code\\Aertssen\\IM.Scharnier\\IM.Scharnier.DatabaseMigrator\\IM.Scharnier.DatabaseMigrator.csproj": {}
+  },
+  "projects": {
+    "D:\\code\\Aertssen\\IM.Scharnier\\IM.Scharnier.DatabaseMigrator\\IM.Scharnier.DatabaseMigrator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\code\\Aertssen\\IM.Scharnier\\IM.Scharnier.DatabaseMigrator\\IM.Scharnier.DatabaseMigrator.csproj",
+        "projectName": "IM.Scharnier.DatabaseMigrator",
+        "projectPath": "D:\\code\\Aertssen\\IM.Scharnier\\IM.Scharnier.DatabaseMigrator\\IM.Scharnier.DatabaseMigrator.csproj",
+        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
+        "outputPath": "D:\\code\\Aertssen\\IM.Scharnier\\IM.Scharnier.DatabaseMigrator\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "D:\\development\\nuget": {},
+          "D:\\development\\nuget\\Aertssen": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\code\\Aertssen\\IM.Scharnier\\IM.Scharnier.Data\\IM.Scharnier.Data.csproj": {
+                "projectPath": "D:\\code\\Aertssen\\IM.Scharnier\\IM.Scharnier.Data\\IM.Scharnier.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\code\\Aertssen\\IM.Scharnier\\IM.Scharnier.Data\\IM.Scharnier.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\code\\Aertssen\\IM.Scharnier\\IM.Scharnier.Data\\IM.Scharnier.Data.csproj",
+        "projectName": "IM.Scharnier.Data",
+        "projectPath": "D:\\code\\Aertssen\\IM.Scharnier\\IM.Scharnier.Data\\IM.Scharnier.Data.csproj",
+        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
+        "outputPath": "D:\\code\\Aertssen\\IM.Scharnier\\IM.Scharnier.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "D:\\development\\nuget": {},
+          "D:\\development\\nuget\\Aertssen": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\code\\Aertssen\\IM.Scharnier\\IM.Scharnier.Domain\\IM.Scharnier.Domain.csproj": {
+                "projectPath": "D:\\code\\Aertssen\\IM.Scharnier\\IM.Scharnier.Domain\\IM.Scharnier.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Audit.Contracts": {
+              "target": "Package",
+              "version": "[1.0.1.2021121004, )"
+            },
+            "Aertssen.Framework.Audit.Infra": {
+              "target": "Package",
+              "version": "[1.0.1.2021121004, )"
+            },
+            "Aertssen.Framework.Data": {
+              "target": "Package",
+              "version": "[1.0.1.2022022103, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\code\\Aertssen\\IM.Scharnier\\IM.Scharnier.Domain\\IM.Scharnier.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\code\\Aertssen\\IM.Scharnier\\IM.Scharnier.Domain\\IM.Scharnier.Domain.csproj",
+        "projectName": "IM.Scharnier.Domain",
+        "projectPath": "D:\\code\\Aertssen\\IM.Scharnier\\IM.Scharnier.Domain\\IM.Scharnier.Domain.csproj",
+        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
+        "outputPath": "D:\\code\\Aertssen\\IM.Scharnier\\IM.Scharnier.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "D:\\development\\nuget": {},
+          "D:\\development\\nuget\\Aertssen": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Audit.Core": {
+              "target": "Package",
+              "version": "[1.0.1.2021121004, )"
+            },
+            "Aertssen.Framework.Core": {
+              "target": "Package",
+              "version": "[1.0.1.2022022103, )"
+            },
+            "Aertssen.Framework.Templates": {
+              "target": "Package",
+              "version": "[1.0.1.2022022103, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

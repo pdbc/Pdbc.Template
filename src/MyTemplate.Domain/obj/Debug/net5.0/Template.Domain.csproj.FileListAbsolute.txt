@@ -1,0 +1,12 @@
+D:\code\pdbc\Pdbc.Template\src\Template.Domain\bin\Debug\net5.0\Template.Domain.deps.json
+D:\code\pdbc\Pdbc.Template\src\Template.Domain\bin\Debug\net5.0\Template.Domain.dll
+D:\code\pdbc\Pdbc.Template\src\Template.Domain\bin\Debug\net5.0\Template.Domain.pdb
+D:\code\pdbc\Pdbc.Template\src\Template.Domain\obj\Debug\net5.0\Template.Domain.csproj.AssemblyReference.cache
+D:\code\pdbc\Pdbc.Template\src\Template.Domain\obj\Debug\net5.0\Template.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\pdbc\Pdbc.Template\src\Template.Domain\obj\Debug\net5.0\Template.Domain.AssemblyInfoInputs.cache
+D:\code\pdbc\Pdbc.Template\src\Template.Domain\obj\Debug\net5.0\Template.Domain.AssemblyInfo.cs
+D:\code\pdbc\Pdbc.Template\src\Template.Domain\obj\Debug\net5.0\Template.Domain.csproj.CoreCompileInputs.cache
+D:\code\pdbc\Pdbc.Template\src\Template.Domain\obj\Debug\net5.0\Template.Domain.dll
+D:\code\pdbc\Pdbc.Template\src\Template.Domain\obj\Debug\net5.0\refint\Template.Domain.dll
+D:\code\pdbc\Pdbc.Template\src\Template.Domain\obj\Debug\net5.0\Template.Domain.pdb
+D:\code\pdbc\Pdbc.Template\src\Template.Domain\obj\Debug\net5.0\ref\Template.Domain.dll

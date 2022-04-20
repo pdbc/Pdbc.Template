@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RezsQ7CnffsnjpZWu3ylukcl7bP8Q+MbwTwK6jlyC8dPVoC76rjDmglxMFqv8vz6SXmt+BYRwojjYv3umAhSpA==",
+  "success": true,
+  "projectFilePath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\patri\\.nuget\\packages\\aertssen.framework.api.contracts\\1.0.4\\aertssen.framework.api.contracts.1.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
