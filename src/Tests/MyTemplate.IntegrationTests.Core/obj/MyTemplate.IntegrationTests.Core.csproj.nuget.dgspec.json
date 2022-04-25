@@ -1,0 +1,792 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.IntegrationTests.Core\\MyTemplate.IntegrationTests.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj",
+        "projectName": "MyTemplate.Api.Contracts",
+        "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Api.Contracts": {
+              "target": "Package",
+              "version": "[1.0.4.2022042501, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.ServiceAgent\\MyTemplate.Api.ServiceAgent.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.ServiceAgent\\MyTemplate.Api.ServiceAgent.csproj",
+        "projectName": "MyTemplate.Api.ServiceAgent",
+        "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.ServiceAgent\\MyTemplate.Api.ServiceAgent.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.ServiceAgent\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Api.ServiceAgents": {
+              "target": "Package",
+              "version": "[1.0.1.2022042504, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj",
+        "projectName": "MyTemplate.Core",
+        "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\MyTemplate.Data.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\MyTemplate.Data.csproj"
+              },
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj"
+              },
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj"
+              },
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.I18N\\MyTemplate.I18N.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.I18N\\MyTemplate.I18N.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Templates": {
+              "target": "Package",
+              "version": "[1.0.4.2022042501, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\MyTemplate.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\MyTemplate.Data.csproj",
+        "projectName": "MyTemplate.Data",
+        "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\MyTemplate.Data.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Audit.Infra": {
+              "target": "Package",
+              "version": "[1.0.1.2022030304, )"
+            },
+            "Aertssen.Framework.Data": {
+              "target": "Package",
+              "version": "[1.0.4.2022042501, )"
+            },
+            "Aertssen.Framework.Infra": {
+              "target": "Package",
+              "version": "[1.0.4.2022042501, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj",
+        "projectName": "MyTemplate.Domain",
+        "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Audit.Core": {
+              "target": "Package",
+              "version": "[1.0.1.2022030304, )"
+            },
+            "Aertssen.Framework.Core": {
+              "target": "Package",
+              "version": "[1.0.4.2022042501, )"
+            },
+            "Aertssen.Framework.Templates": {
+              "target": "Package",
+              "version": "[1.0.4.2022042501, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj",
+        "projectName": "MyTemplate.Dto",
+        "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.I18N\\MyTemplate.I18N.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.I18N\\MyTemplate.I18N.csproj",
+        "projectName": "MyTemplate.I18N",
+        "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.I18N\\MyTemplate.I18N.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.I18N\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Services.Cqrs\\MyTemplate.Services.Cqrs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Services.Cqrs\\MyTemplate.Services.Cqrs.csproj",
+        "projectName": "MyTemplate.Services.Cqrs",
+        "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Services.Cqrs\\MyTemplate.Services.Cqrs.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Services.Cqrs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj"
+              },
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Services.Cqrs": {
+              "target": "Package",
+              "version": "[1.0.4.2022042501, )"
+            },
+            "Aertssen.Framework.Templates": {
+              "target": "Package",
+              "version": "[1.0.4.2022042501, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.Integration.Tests\\MyTemplate.Integration.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.Integration.Tests\\MyTemplate.Integration.Tests.csproj",
+        "projectName": "MyTemplate.Integration.Tests",
+        "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.Integration.Tests\\MyTemplate.Integration.Tests.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.Integration.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.ServiceAgent\\MyTemplate.Api.ServiceAgent.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.ServiceAgent\\MyTemplate.Api.ServiceAgent.csproj"
+              },
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\MyTemplate.Data.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\MyTemplate.Data.csproj"
+              },
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Services.Cqrs\\MyTemplate.Services.Cqrs.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Services.Cqrs\\MyTemplate.Services.Cqrs.csproj"
+              },
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.Tests.Helpers\\MyTemplate.Tests.Helpers.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.Tests.Helpers\\MyTemplate.Tests.Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Tests.Infra": {
+              "target": "Package",
+              "version": "[1.0.1.2022042504, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[99.0.4844.5100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.IntegrationTests.Core\\MyTemplate.IntegrationTests.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.IntegrationTests.Core\\MyTemplate.IntegrationTests.Core.csproj",
+        "projectName": "MyTemplate.IntegrationTests.Core",
+        "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.IntegrationTests.Core\\MyTemplate.IntegrationTests.Core.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.IntegrationTests.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.Integration.Tests\\MyTemplate.Integration.Tests.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.Integration.Tests\\MyTemplate.Integration.Tests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[99.0.4844.5100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.Tests.Helpers\\MyTemplate.Tests.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.Tests.Helpers\\MyTemplate.Tests.Helpers.csproj",
+        "projectName": "MyTemplate.Tests.Helpers",
+        "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.Tests.Helpers\\MyTemplate.Tests.Helpers.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.Tests.Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj"
+              },
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj"
+              },
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Templates": {
+              "target": "Package",
+              "version": "[1.0.4.2022042501, )",
+              "generatePathProperty": true
+            },
+            "Aertssen.Framework.Tests": {
+              "target": "Package",
+              "version": "[1.0.4.2022042501, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

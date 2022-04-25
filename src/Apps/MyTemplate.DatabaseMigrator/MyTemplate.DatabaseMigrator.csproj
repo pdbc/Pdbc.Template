@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Pdbc.Demo.Data\Pdbc.Demo.Data.csproj" />
+    <ProjectReference Include="..\..\MyTemplate.Data\MyTemplate.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>

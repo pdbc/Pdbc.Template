@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using Pdbc.Demo.Data;
+using MyTemplate.Data;
 
-namespace Pdbc.Demo.DatabaseMigrator
+namespace MyTemplate.DatabaseMigrator
 {
     public class ClearDatabaseService
     {
-        private readonly DemoDbContext _dbContext;
+        private readonly MyTemplateDbContext _dbContext;
 
-        public ClearDatabaseService(DemoDbContext dbContext)
+        public ClearDatabaseService(MyTemplateDbContext dbContext)
         {
             _dbContext = dbContext;
         }
@@ -41,8 +41,8 @@ namespace Pdbc.Demo.DatabaseMigrator
 
             foreach (var table in tableNames)
             {
-                PerformAction(() => _dbContext.Database.ExecuteSqlRaw($"DROP TABLE [{DemoDbConstants.SchemaName.Default}].[{table}]"));
-                PerformAction(() => _dbContext.Database.ExecuteSqlRaw($"DROP TABLE [{DemoDbConstants.SchemaName.Integration}].[{table}]"));
+                PerformAction(() => _dbContext.Database.ExecuteSqlRaw($"DROP TABLE [{MyTemplateDbConstants.SchemaName.Default}].[{table}]"));
+                PerformAction(() => _dbContext.Database.ExecuteSqlRaw($"DROP TABLE [{MyTemplateDbConstants.SchemaName.Integration}].[{table}]"));
             }
         }
         private static void PerformAction(Action action)

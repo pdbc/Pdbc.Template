@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ignbqEsl/3KK9UsSxnwZiqa8K6ZLVNgetrwMgCP4C+wOg7EodVf/kGXBiVi+kdwxvX9e5vBMi0G8l+sDy3fS0A==",
+  "dgSpecHash": "81NE6xyyvL4oxkx6nxhd2CXzHeEcWQe4127QbcawZiVYXuMjGlC70O5Ja9m9DpMmNQcBYVoFivNVGXE9FPB8gQ==",
   "success": true,
-  "projectFilePath": "D:\\code\\pdbc\\Pdbc.Template\\nuget.csproj",
+  "projectFilePath": "C:\\repos\\Pdbc\\Pdbc.Template\\nuget.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

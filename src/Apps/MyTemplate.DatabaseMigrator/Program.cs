@@ -3,9 +3,9 @@ using Aertssen.Framework.Core.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Pdbc.Demo.Data;
+using MyTemplate.Data;
 
-namespace Pdbc.Demo.DatabaseMigrator
+namespace MyTemplate.DatabaseMigrator
 {
     class Program
     {
@@ -21,11 +21,11 @@ namespace Pdbc.Demo.DatabaseMigrator
             var services = new ServiceCollection();
             services.AddSingleton(configuration);
             services.AddLogging();
-            services.RegisterModule<DemoDataModule>(configuration);
+            services.RegisterModule<MyTemplateDataModule>(configuration);
             services.AddScoped<ClearDatabaseService>();
             var serviceProvider = services.BuildServiceProvider();
 
-            var DemoDbContext = serviceProvider.GetRequiredService<DemoDbContext>();
+            var DemoDbContext = serviceProvider.GetRequiredService<MyTemplateDbContext>();
             var connectionString = DemoDbContext.Database.GetDbConnection().ConnectionString;
             var isLocalRun = connectionString.Contains("localhost");
 

@@ -5,7 +5,6 @@ namespace MyTemplate.Domain.Model
 {
     public class MyEntity : BaseEquatableEntity<MyEntity>
     {
-
         public String Name { get; set; }
     }
 }

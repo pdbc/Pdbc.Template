@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Aertssen.Framework.Tests.Infra" Version="1.0.1.2022042504" />
+		<PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
+		<PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+		<PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="99.0.4844.5100" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\MyTemplate.Api.ServiceAgent\MyTemplate.Api.ServiceAgent.csproj" />
+	  <ProjectReference Include="..\..\MyTemplate.Data\MyTemplate.Data.csproj" />
+	  <ProjectReference Include="..\..\MyTemplate.Services.Cqrs\MyTemplate.Services.Cqrs.csproj" />
+	  <ProjectReference Include="..\MyTemplate.Tests.Helpers\MyTemplate.Tests.Helpers.csproj" />
+	</ItemGroup>
+
+</Project>
