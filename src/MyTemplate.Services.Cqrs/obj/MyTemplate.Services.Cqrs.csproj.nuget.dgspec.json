@@ -1,41 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Services.Cqrs\\MyTemplate.Services.Cqrs.csproj": {}
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Services.Cqrs\\MyTemplate.Services.Cqrs.csproj": {}
   },
   "projects": {
-    "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj": {
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj",
+        "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj",
         "projectName": "MyTemplate.Api.Contracts",
-        "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj",
-        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\obj\\",
+        "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "D:\\development\\nuget": {},
-          "D:\\development\\nuget\\Aertssen": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj": {
-                "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj"
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj"
               }
             }
           }
@@ -52,7 +47,7 @@
           "dependencies": {
             "Aertssen.Framework.Api.Contracts": {
               "target": "Package",
-              "version": "[1.0.4, )"
+              "version": "[1.0.4.2022042501, )"
             }
           },
           "imports": [
@@ -74,47 +69,42 @@
         }
       }
     },
-    "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj": {
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj",
+        "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj",
         "projectName": "MyTemplate.Core",
-        "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj",
-        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\obj\\",
+        "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "D:\\development\\nuget": {},
-          "D:\\development\\nuget\\Aertssen": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\MyTemplate.Data.csproj": {
-                "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\MyTemplate.Data.csproj"
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\MyTemplate.Data.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\MyTemplate.Data.csproj"
               },
-              "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj": {
-                "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj"
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj"
               },
-              "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj": {
-                "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj"
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj"
               },
-              "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.I18N\\MyTemplate.I18N.csproj": {
-                "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.I18N\\MyTemplate.I18N.csproj"
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.I18N\\MyTemplate.I18N.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.I18N\\MyTemplate.I18N.csproj"
               }
             }
           }
@@ -131,7 +121,7 @@
           "dependencies": {
             "Aertssen.Framework.Templates": {
               "target": "Package",
-              "version": "[1.0.4, )",
+              "version": "[1.0.4.2022042501, )",
               "generatePathProperty": true
             },
             "Microsoft.Extensions.Configuration.Json": {
@@ -158,38 +148,33 @@
         }
       }
     },
-    "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\MyTemplate.Data.csproj": {
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\MyTemplate.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\MyTemplate.Data.csproj",
+        "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\MyTemplate.Data.csproj",
         "projectName": "MyTemplate.Data",
-        "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\MyTemplate.Data.csproj",
-        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\obj\\",
+        "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\MyTemplate.Data.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "D:\\development\\nuget": {},
-          "D:\\development\\nuget\\Aertssen": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj": {
-                "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj"
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj"
               }
             }
           }
@@ -204,13 +189,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Aertssen.Framework.Audit.Infra": {
+              "target": "Package",
+              "version": "[1.0.1.2022030304, )"
+            },
             "Aertssen.Framework.Data": {
               "target": "Package",
-              "version": "[1.0.4, )"
+              "version": "[1.0.4.2022042501, )"
             },
             "Aertssen.Framework.Infra": {
               "target": "Package",
-              "version": "[1.0.4, )"
+              "version": "[1.0.4.2022042501, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -238,31 +227,26 @@
         }
       }
     },
-    "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj": {
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj",
+        "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj",
         "projectName": "MyTemplate.Domain",
-        "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj",
-        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\obj\\",
+        "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "D:\\development\\nuget": {},
-          "D:\\development\\nuget\\Aertssen": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -280,13 +264,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Aertssen.Framework.Audit.Core": {
+              "target": "Package",
+              "version": "[1.0.1.2022030304, )"
+            },
             "Aertssen.Framework.Core": {
               "target": "Package",
-              "version": "[1.0.4, )"
+              "version": "[1.0.4.2022042501, )"
             },
             "Aertssen.Framework.Templates": {
               "target": "Package",
-              "version": "[1.0.4, )",
+              "version": "[1.0.4.2022042501, )",
               "generatePathProperty": true
             }
           },
@@ -309,31 +297,26 @@
         }
       }
     },
-    "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj": {
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj",
+        "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj",
         "projectName": "MyTemplate.Dto",
-        "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj",
-        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\obj\\",
+        "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\MyTemplate.Dto.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Dto\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "D:\\development\\nuget": {},
-          "D:\\development\\nuget\\Aertssen": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -369,31 +352,26 @@
         }
       }
     },
-    "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.I18N\\MyTemplate.I18N.csproj": {
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.I18N\\MyTemplate.I18N.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.I18N\\MyTemplate.I18N.csproj",
+        "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.I18N\\MyTemplate.I18N.csproj",
         "projectName": "MyTemplate.I18N",
-        "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.I18N\\MyTemplate.I18N.csproj",
-        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.I18N\\obj\\",
+        "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.I18N\\MyTemplate.I18N.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.I18N\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "D:\\development\\nuget": {},
-          "D:\\development\\nuget\\Aertssen": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -429,41 +407,36 @@
         }
       }
     },
-    "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Services.Cqrs\\MyTemplate.Services.Cqrs.csproj": {
+    "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Services.Cqrs\\MyTemplate.Services.Cqrs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Services.Cqrs\\MyTemplate.Services.Cqrs.csproj",
+        "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Services.Cqrs\\MyTemplate.Services.Cqrs.csproj",
         "projectName": "MyTemplate.Services.Cqrs",
-        "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Services.Cqrs\\MyTemplate.Services.Cqrs.csproj",
-        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Services.Cqrs\\obj\\",
+        "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Services.Cqrs\\MyTemplate.Services.Cqrs.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Services.Cqrs\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "D:\\development\\nuget": {},
-          "D:\\development\\nuget\\Aertssen": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj": {
-                "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj"
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj"
               },
-              "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj": {
-                "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj"
+              "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj": {
+                "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj"
               }
             }
           }
@@ -480,11 +453,11 @@
           "dependencies": {
             "Aertssen.Framework.Services.Cqrs": {
               "target": "Package",
-              "version": "[1.0.4, )"
+              "version": "[1.0.4.2022042501, )"
             },
             "Aertssen.Framework.Templates": {
               "target": "Package",
-              "version": "[1.0.4, )",
+              "version": "[1.0.4.2022042501, )",
               "generatePathProperty": true
             }
           },

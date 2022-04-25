@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aertssen.Framework.Api.Contracts" Version="1.0.4" />
+    <PackageReference Include="Aertssen.Framework.Api.Contracts" Version="1.0.4.2022042501" />
   </ItemGroup>
 
   <ItemGroup>

@@ -29,7 +29,7 @@ namespace MyTemplate.Data
                             );
                         }
 
-                        builder.MigrationsHistoryTable(DemoDbConstants.Migrations.TableName, DemoDbConstants.SchemaName.Default);
+                        builder.MigrationsHistoryTable(MyTemplateDbConstants.Migrations.TableName, MyTemplateDbConstants.SchemaName.Default);
                     })
                 );
 

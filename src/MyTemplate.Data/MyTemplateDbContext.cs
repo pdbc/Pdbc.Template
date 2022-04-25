@@ -46,7 +46,7 @@ namespace MyTemplate.Data
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.HasAnnotation("Relational:Collation", "SQL_Latin1_General_CP1_CI_AS");
-            modelBuilder.HasDefaultSchema(DemoDbConstants.SchemaName.Default);
+            modelBuilder.HasDefaultSchema(MyTemplateDbConstants.SchemaName.Default);
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(MyEntityConfiguration).Assembly);
             //modelBuilder.ApplyConfigurationsFromAssembly(typeof(AuditRecordConfiguration).Assembly);

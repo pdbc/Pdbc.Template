@@ -5,8 +5,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Aertssen.Framework.Services.Cqrs" Version="1.0.4" />
-		<PackageReference Include="Aertssen.Framework.Templates" Version="1.0.4">
+		<PackageReference Include="Aertssen.Framework.Services.Cqrs" Version="1.0.4.2022042501" />
+		<PackageReference Include="Aertssen.Framework.Templates" Version="1.0.4.2022042501">
 			<GeneratePathProperty>true</GeneratePathProperty>
 		</PackageReference>
 	</ItemGroup>

@@ -11,12 +11,12 @@ namespace MyTemplate.Data
             _config = config;
         }
 
-        public string DbConnectionString => _config.GetValue<bool>(DemoDbConstants.SqlServerOptions.UseAdminConnectionString)
-            ? _config.GetConnectionString(DemoDbConstants.ConnectionStringName.Admin)
-            : _config.GetConnectionString(DemoDbConstants.ConnectionStringName.Default);
+        public string DbConnectionString => _config.GetValue<bool>(MyTemplateDbConstants.SqlServerOptions.UseAdminConnectionString)
+            ? _config.GetConnectionString(MyTemplateDbConstants.ConnectionStringName.Admin)
+            : _config.GetConnectionString(MyTemplateDbConstants.ConnectionStringName.Default);
 
-        public int SqlServerMaxRetryCount => _config.GetValue(DemoDbConstants.SqlServerOptions.MaxRetryCountValue, 20);
-        public int SqlServerMaxDelay => _config.GetValue(DemoDbConstants.SqlServerOptions.MaxDelayValue, 500);
-        public bool UseRetries => _config.GetValue(DemoDbConstants.SqlServerOptions.UseRetries, false);
+        public int SqlServerMaxRetryCount => _config.GetValue(MyTemplateDbConstants.SqlServerOptions.MaxRetryCountValue, 20);
+        public int SqlServerMaxDelay => _config.GetValue(MyTemplateDbConstants.SqlServerOptions.MaxDelayValue, 500);
+        public bool UseRetries => _config.GetValue(MyTemplateDbConstants.SqlServerOptions.UseRetries, false);
     }
 }

@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aertssen.Framework.Templates" Version="1.0.4">
+    <PackageReference Include="Aertssen.Framework.Templates" Version="1.0.4.2022042501">
       <GeneratePathProperty>true</GeneratePathProperty>
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />

@@ -12,7 +12,7 @@ namespace MyTemplate.Data.Configurations
         {
             base.Configure(builder);
 
-            builder.ToTable("MyEntities", DemoDbConstants.SchemaName.Default);
+            builder.ToTable("MyEntities", MyTemplateDbConstants.SchemaName.Default);
             
             builder.Property(e => e.Name)
                 .HasMaxLength(ValidationConstants.MyEntityNameMaximumLength)

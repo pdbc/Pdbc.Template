@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v5.0": {
       "MyTemplate.Tests.Helpers/1.0.0": {
         "dependencies": {
-          "Aertssen.Framework.Templates": "1.0.4",
-          "Aertssen.Framework.Tests": "1.0.4",
+          "Aertssen.Framework.Templates": "1.0.4.2022042501",
+          "Aertssen.Framework.Tests": "1.0.4.2022042501",
           "MyTemplate.Api.Contracts": "1.0.0",
           "MyTemplate.Core": "1.0.0",
           "MyTemplate.Domain": "1.0.0"
@@ -18,15 +18,69 @@
           "MyTemplate.Tests.Helpers.dll": {}
         }
       },
-      "Aertssen.Framework.Api.Contracts/1.0.4": {
+      "Aertssen.Framework.Api.Contracts/1.0.4.2022042501": {
         "runtime": {
           "lib/net5.0/Aertssen.Framework.Api.Contracts.dll": {
-            "assemblyVersion": "1.0.4.0",
-            "fileVersion": "1.0.4.0"
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
-      "Aertssen.Framework.Core/1.0.4": {
+      "Aertssen.Framework.Audit.Contracts/1.0.1.2022030304": {
+        "dependencies": {
+          "Aertssen.Framework.Api.Contracts": "1.0.4.2022042501",
+          "Aertssen.Framework.Audit.Core": "1.0.1.2022030304",
+          "Aertssen.Framework.Templates": "1.0.4.2022042501"
+        },
+        "runtime": {
+          "lib/net5.0/Aertssen.Framework.Audit.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aertssen.Framework.Audit.Core/1.0.1.2022030304": {
+        "dependencies": {
+          "Aertssen.Framework.Core": "1.0.4.2022042501",
+          "Microsoft.EntityFrameworkCore": "5.0.12"
+        },
+        "runtime": {
+          "lib/net5.0/Aertssen.Framework.Audit.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aertssen.Framework.Audit.Data/1.0.1.2022030304": {
+        "dependencies": {
+          "Aertssen.Framework.Audit.Contracts": "1.0.1.2022030304",
+          "Aertssen.Framework.Audit.Core": "1.0.1.2022030304",
+          "Aertssen.Framework.Data": "1.0.4.2022042501"
+        },
+        "runtime": {
+          "lib/net5.0/Aertssen.Framework.Audit.Data.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aertssen.Framework.Audit.Infra/1.0.1.2022030304": {
+        "dependencies": {
+          "Aertssen.Framework.Audit.Contracts": "1.0.1.2022030304",
+          "Aertssen.Framework.Audit.Core": "1.0.1.2022030304",
+          "Aertssen.Framework.Audit.Data": "1.0.1.2022030304",
+          "Aertssen.Framework.Infra": "1.0.4.2022042501",
+          "Aertssen.Framework.Services.Cqrs": "1.0.1.2022030307",
+          "Aertssen.Framework.Templates": "1.0.4.2022042501"
+        },
+        "runtime": {
+          "lib/net5.0/Aertssen.Framework.Audit.Infra.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aertssen.Framework.Core/1.0.4.2022042501": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
           "Microsoft.Extensions.Configuration.Binder": "5.0.0",
@@ -38,29 +92,29 @@
         },
         "runtime": {
           "lib/net5.0/Aertssen.Framework.Core.dll": {
-            "assemblyVersion": "1.0.4.0",
-            "fileVersion": "1.0.4.0"
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
-      "Aertssen.Framework.Data/1.0.4": {
+      "Aertssen.Framework.Data/1.0.4.2022042501": {
         "dependencies": {
-          "Aertssen.Framework.Core": "1.0.4",
-          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Aertssen.Framework.Core": "1.0.4.2022042501",
+          "Microsoft.EntityFrameworkCore": "5.0.12",
           "Microsoft.EntityFrameworkCore.Proxies": "5.0.10",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10"
         },
         "runtime": {
           "lib/net5.0/Aertssen.Framework.Data.dll": {
-            "assemblyVersion": "1.0.4.0",
-            "fileVersion": "1.0.4.0"
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
-      "Aertssen.Framework.Infra/1.0.4": {
+      "Aertssen.Framework.Infra/1.0.4.2022042501": {
         "dependencies": {
-          "Aertssen.Framework.Core": "1.0.4",
+          "Aertssen.Framework.Core": "1.0.4.2022042501",
           "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "Castle.Core": "4.4.1",
@@ -73,15 +127,27 @@
         },
         "runtime": {
           "lib/net5.0/Aertssen.Framework.Infra.dll": {
-            "assemblyVersion": "1.0.4.0",
-            "fileVersion": "1.0.4.0"
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
-      "Aertssen.Framework.Templates/1.0.4": {},
-      "Aertssen.Framework.Tests/1.0.4": {
+      "Aertssen.Framework.Services.Cqrs/1.0.1.2022030307": {
         "dependencies": {
-          "Aertssen.Framework.Core": "1.0.4",
+          "Aertssen.Framework.Api.Contracts": "1.0.4.2022042501",
+          "Aertssen.Framework.Infra": "1.0.4.2022042501"
+        },
+        "runtime": {
+          "lib/net5.0/Aertssen.Framework.Services.Cqrs.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aertssen.Framework.Templates/1.0.4.2022042501": {},
+      "Aertssen.Framework.Tests/1.0.4.2022042501": {
+        "dependencies": {
+          "Aertssen.Framework.Core": "1.0.4.2022042501",
           "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
           "Moq": "4.16.1",
           "Moq.AutoMock": "3.0.0",
@@ -90,8 +156,8 @@
         },
         "runtime": {
           "lib/net5.0/Aertssen.Framework.Tests.dll": {
-            "assemblyVersion": "1.0.4.0",
-            "fileVersion": "1.0.4.0"
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -247,10 +313,10 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/5.0.10": {
+      "Microsoft.EntityFrameworkCore/5.0.12": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.10",
-          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.12",
+          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.12",
           "Microsoft.Extensions.Caching.Memory": "5.0.0",
           "Microsoft.Extensions.DependencyInjection": "5.0.2",
           "Microsoft.Extensions.Logging": "5.0.0",
@@ -260,24 +326,24 @@
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.dll": {
-            "assemblyVersion": "5.0.10.0",
-            "fileVersion": "5.0.1021.41011"
+            "assemblyVersion": "5.0.12.0",
+            "fileVersion": "5.0.1221.51310"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/5.0.10": {
+      "Microsoft.EntityFrameworkCore.Abstractions/5.0.12": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll": {
-            "assemblyVersion": "5.0.10.0",
-            "fileVersion": "5.0.1021.41011"
+            "assemblyVersion": "5.0.12.0",
+            "fileVersion": "5.0.1221.51310"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/5.0.10": {},
+      "Microsoft.EntityFrameworkCore.Analyzers/5.0.12": {},
       "Microsoft.EntityFrameworkCore.Proxies/5.0.10": {
         "dependencies": {
           "Castle.Core": "4.4.1",
-          "Microsoft.EntityFrameworkCore": "5.0.10"
+          "Microsoft.EntityFrameworkCore": "5.0.12"
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Proxies.dll": {
@@ -288,7 +354,7 @@
       },
       "Microsoft.EntityFrameworkCore.Relational/5.0.10": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore": "5.0.12",
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
         },
         "runtime": {
@@ -1327,7 +1393,7 @@
       },
       "MyTemplate.Api.Contracts/1.0.0": {
         "dependencies": {
-          "Aertssen.Framework.Api.Contracts": "1.0.4",
+          "Aertssen.Framework.Api.Contracts": "1.0.4.2022042501",
           "MyTemplate.Dto": "1.0.0"
         },
         "runtime": {
@@ -1336,7 +1402,7 @@
       },
       "MyTemplate.Core/1.0.0": {
         "dependencies": {
-          "Aertssen.Framework.Templates": "1.0.4",
+          "Aertssen.Framework.Templates": "1.0.4.2022042501",
           "Microsoft.Extensions.Configuration.Json": "5.0.0",
           "MyTemplate.Data": "1.0.0",
           "MyTemplate.Domain": "1.0.0",
@@ -1349,8 +1415,9 @@
       },
       "MyTemplate.Data/1.0.0": {
         "dependencies": {
-          "Aertssen.Framework.Data": "1.0.4",
-          "Aertssen.Framework.Infra": "1.0.4",
+          "Aertssen.Framework.Audit.Infra": "1.0.1.2022030304",
+          "Aertssen.Framework.Data": "1.0.4.2022042501",
+          "Aertssen.Framework.Infra": "1.0.4.2022042501",
           "MyTemplate.Domain": "1.0.0"
         },
         "runtime": {
@@ -1359,8 +1426,9 @@
       },
       "MyTemplate.Domain/1.0.0": {
         "dependencies": {
-          "Aertssen.Framework.Core": "1.0.4",
-          "Aertssen.Framework.Templates": "1.0.4"
+          "Aertssen.Framework.Audit.Core": "1.0.1.2022030304",
+          "Aertssen.Framework.Core": "1.0.4.2022042501",
+          "Aertssen.Framework.Templates": "1.0.4.2022042501"
         },
         "runtime": {
           "MyTemplate.Domain.dll": {}
@@ -1384,47 +1452,82 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Aertssen.Framework.Api.Contracts/1.0.4": {
+    "Aertssen.Framework.Api.Contracts/1.0.4.2022042501": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3Xnt7noNn5QzqVueq41BIYhQsV9UWFV6pmWU5jva2IgyAV7nwAupU5AI5SjB6z9vW1/ZwDu1eUFqx9hWtYhz3w==",
-      "path": "aertssen.framework.api.contracts/1.0.4",
-      "hashPath": "aertssen.framework.api.contracts.1.0.4.nupkg.sha512"
+      "sha512": "sha512-W2+2pBelTwsrvKxioZHfKGNqq8YAEpRBlSYOO+ynJGJiKJe/3uCbCYAEmtMdGVeA8JgTCs5c2U4/+d+cEKZ3OA==",
+      "path": "aertssen.framework.api.contracts/1.0.4.2022042501",
+      "hashPath": "aertssen.framework.api.contracts.1.0.4.2022042501.nupkg.sha512"
     },
-    "Aertssen.Framework.Core/1.0.4": {
+    "Aertssen.Framework.Audit.Contracts/1.0.1.2022030304": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nwzZyzyI5IUtq9Ko5lVUDyjZchrZnG+jS811jp7JUnLP9cWmvQUuyKf72vRlVNCzKEsq95oM2ppj5vy5zTa1Mw==",
-      "path": "aertssen.framework.core/1.0.4",
-      "hashPath": "aertssen.framework.core.1.0.4.nupkg.sha512"
+      "sha512": "sha512-Pp+oqbks1mziav1AB6ZYXFyJS8u4LVuSV5gxPQriKFNZ7cbSFGv/pfkarY/tJ+CmL6BexVN5GTkk0/tttp75KA==",
+      "path": "aertssen.framework.audit.contracts/1.0.1.2022030304",
+      "hashPath": "aertssen.framework.audit.contracts.1.0.1.2022030304.nupkg.sha512"
     },
-    "Aertssen.Framework.Data/1.0.4": {
+    "Aertssen.Framework.Audit.Core/1.0.1.2022030304": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dZdpjnGw1gYNuFlB4a+HDf2ns0I/usXTYJuouFDgLu47YD9LqQC5Oqdi+BU8uzzh6jAHIQS1aV75ggXl902FCQ==",
-      "path": "aertssen.framework.data/1.0.4",
-      "hashPath": "aertssen.framework.data.1.0.4.nupkg.sha512"
+      "sha512": "sha512-N7eZzl0U4m6nmKtJfIHuF+hnr+r7Je6gGhA9t3wZ81a0EiWqGKyZWTNidcjkfIMwF0edafsNcNc+Fs4CUU/tKQ==",
+      "path": "aertssen.framework.audit.core/1.0.1.2022030304",
+      "hashPath": "aertssen.framework.audit.core.1.0.1.2022030304.nupkg.sha512"
     },
-    "Aertssen.Framework.Infra/1.0.4": {
+    "Aertssen.Framework.Audit.Data/1.0.1.2022030304": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CfLF8zdNZPrwC6wxEX6+ziDnyrHR/8vAxjl3exYTJ5BWBYSdepnlMex/dbENTop0QlgGDc9aLfyh7+NnOCD9ZA==",
-      "path": "aertssen.framework.infra/1.0.4",
-      "hashPath": "aertssen.framework.infra.1.0.4.nupkg.sha512"
+      "sha512": "sha512-xXfH+UVYWKTFUQOBV9/QCHGAWJV+OOETMWuL5HpwXIiU+4PvTousPy8puDBMAXiVg9IYMERo2JffHDurLu8mwQ==",
+      "path": "aertssen.framework.audit.data/1.0.1.2022030304",
+      "hashPath": "aertssen.framework.audit.data.1.0.1.2022030304.nupkg.sha512"
     },
-    "Aertssen.Framework.Templates/1.0.4": {
+    "Aertssen.Framework.Audit.Infra/1.0.1.2022030304": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-rwiQQfIXIKiJqpopC+YW1c9apxWJ09vminfz07lzACapwjOG5gbekj4qLWX8w2BJdV1VOslBNqhnlDczBOUiTg==",
-      "path": "aertssen.framework.templates/1.0.4",
-      "hashPath": "aertssen.framework.templates.1.0.4.nupkg.sha512"
+      "sha512": "sha512-1kNbiFLbdFgtVXgSd/K8VefmJQkrpJbYIRz350ICvaE1kC3v354VTGzdiXz7DzVYAN1oKw2r45MnjtmEjlxhrw==",
+      "path": "aertssen.framework.audit.infra/1.0.1.2022030304",
+      "hashPath": "aertssen.framework.audit.infra.1.0.1.2022030304.nupkg.sha512"
     },
-    "Aertssen.Framework.Tests/1.0.4": {
+    "Aertssen.Framework.Core/1.0.4.2022042501": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jIeCkFM1tI1t0BIPCZZjjAfO6vaiiPmGXMGhJ8YYqmmC2YhBwJsr+cOubgBnH8QsS/D3W5qfWS1kna89aGMbxA==",
-      "path": "aertssen.framework.tests/1.0.4",
-      "hashPath": "aertssen.framework.tests.1.0.4.nupkg.sha512"
+      "sha512": "sha512-5Y+3Ig1Bp6H2W6JdeFILMWirtHrpCQOxsNFmNwzzHbLOwF44KZKj+1h8UJmz3emdO5fmiGrbt/WYxAgZe1xvFQ==",
+      "path": "aertssen.framework.core/1.0.4.2022042501",
+      "hashPath": "aertssen.framework.core.1.0.4.2022042501.nupkg.sha512"
+    },
+    "Aertssen.Framework.Data/1.0.4.2022042501": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8PRJKDe5TXepAIhcUK5HkYNFG9F0Ijgh62wetEccIQK+RnmIvk9SiSWuLt05ALy2Vhlqb959EibQgpMlXUfjGQ==",
+      "path": "aertssen.framework.data/1.0.4.2022042501",
+      "hashPath": "aertssen.framework.data.1.0.4.2022042501.nupkg.sha512"
+    },
+    "Aertssen.Framework.Infra/1.0.4.2022042501": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mfo1Im8dkZZGHpxG3JsyYOw44aEgxAe32BzoCNLeT0t/A7l/KxRbWlmzQwnzO9qfq7iGS944j+7Y4smcrkBnMA==",
+      "path": "aertssen.framework.infra/1.0.4.2022042501",
+      "hashPath": "aertssen.framework.infra.1.0.4.2022042501.nupkg.sha512"
+    },
+    "Aertssen.Framework.Services.Cqrs/1.0.1.2022030307": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QbkzGSQSxKlv5RgJ0ecKPKoF+cw1XPdeiu5bLfOXj1GyWg+mwSU68XFI+dsqGioe+YRw6v8C1tbMCyBx7Ub06g==",
+      "path": "aertssen.framework.services.cqrs/1.0.1.2022030307",
+      "hashPath": "aertssen.framework.services.cqrs.1.0.1.2022030307.nupkg.sha512"
+    },
+    "Aertssen.Framework.Templates/1.0.4.2022042501": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q69dpV/vjcS7RGno1jIYk0hl6puQ4Qvkj+FTxmJYxqgZODaiq0h2SfPevDOfwRM8ZQXFIPLKL10cDFD5PvawxQ==",
+      "path": "aertssen.framework.templates/1.0.4.2022042501",
+      "hashPath": "aertssen.framework.templates.1.0.4.2022042501.nupkg.sha512"
+    },
+    "Aertssen.Framework.Tests/1.0.4.2022042501": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yr/w168+y5niel3oZFy7muB1n6Z6+4xlJM9Qd7xWd0X/eNQ5A2FD8547bS2mGqUe26YFXHmqyDeXa8BdgY9MfA==",
+      "path": "aertssen.framework.tests/1.0.4.2022042501",
+      "hashPath": "aertssen.framework.tests.1.0.4.2022042501.nupkg.sha512"
     },
     "AutoMapper/10.1.1": {
       "type": "package",
@@ -1489,26 +1592,26 @@
       "path": "microsoft.data.sqlclient.sni.runtime/2.0.1",
       "hashPath": "microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore/5.0.10": {
+    "Microsoft.EntityFrameworkCore/5.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-w5+5oewaQWDj4ChxxjLhdxIi98dK+kq7wvqnTco9PodkqHIDMfKk+5fQCQGLQrbhTdNaqyfYE1ApFP66mLXv6Q==",
-      "path": "microsoft.entityframeworkcore/5.0.10",
-      "hashPath": "microsoft.entityframeworkcore.5.0.10.nupkg.sha512"
+      "sha512": "sha512-NsGCTrPfGUXS4QFCLM5SlnfyED8JUswpcnguA3MSTBq6Zjnmkxjzrm6eDg4MBuiebZX2nfGONMavOKRWaZDjMw==",
+      "path": "microsoft.entityframeworkcore/5.0.12",
+      "hashPath": "microsoft.entityframeworkcore.5.0.12.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/5.0.10": {
+    "Microsoft.EntityFrameworkCore.Abstractions/5.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Ib85lZI/jxvsKcCS0GHVeqBv/JGzEvKa6HkoyxNu0EDmzDoh4OFl+dDKSx4Vr6I5YWT7nQj3sz6I4I0wHSN0xg==",
-      "path": "microsoft.entityframeworkcore.abstractions/5.0.10",
-      "hashPath": "microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512"
+      "sha512": "sha512-AWRxHGp55hAAT4P8E/9soD5TpSaD1uBByvEMnhdRopILgbZSh90War+wVBAou3h+6kxV2MSp1WErE1w+BVZtjA==",
+      "path": "microsoft.entityframeworkcore.abstractions/5.0.12",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.5.0.12.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/5.0.10": {
+    "Microsoft.EntityFrameworkCore.Analyzers/5.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MBnG+g6jrmK72y4rU+4y2btHrl72i2q3zrXG3pj2zZGXXrG9Q4SlwL5ul0ASmQXYjhJ4VpDfd4o1/gdRPsa2jA==",
-      "path": "microsoft.entityframeworkcore.analyzers/5.0.10",
-      "hashPath": "microsoft.entityframeworkcore.analyzers.5.0.10.nupkg.sha512"
+      "sha512": "sha512-MTxvfKtEeQN5E5fBJO/jNfBdcKqw///Pro4uI2o0q8ukMaLsff4TgC8cfPBtzkz6wh55z0b4kldUv2r34Ix3sg==",
+      "path": "microsoft.entityframeworkcore.analyzers/5.0.12",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.5.0.12.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Proxies/5.0.10": {
       "type": "package",

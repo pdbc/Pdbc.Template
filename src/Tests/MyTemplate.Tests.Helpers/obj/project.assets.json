@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Aertssen.Framework.Api.Contracts/1.0.4": {
+      "Aertssen.Framework.Api.Contracts/1.0.4.2022042501": {
         "type": "package",
         "compile": {
           "lib/net5.0/Aertssen.Framework.Api.Contracts.dll": {}
@@ -11,7 +11,65 @@
           "lib/net5.0/Aertssen.Framework.Api.Contracts.dll": {}
         }
       },
-      "Aertssen.Framework.Core/1.0.4": {
+      "Aertssen.Framework.Audit.Contracts/1.0.1.2022030304": {
+        "type": "package",
+        "dependencies": {
+          "Aertssen.Framework.Api.Contracts": "1.0.1.2022030307",
+          "Aertssen.Framework.Audit.Core": "1.0.1.2022030304",
+          "Aertssen.Framework.Templates": "1.0.1.2022030307"
+        },
+        "compile": {
+          "lib/net5.0/Aertssen.Framework.Audit.Contracts.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Aertssen.Framework.Audit.Contracts.dll": {}
+        }
+      },
+      "Aertssen.Framework.Audit.Core/1.0.1.2022030304": {
+        "type": "package",
+        "dependencies": {
+          "Aertssen.Framework.Core": "1.0.1.2022030307",
+          "Microsoft.EntityFrameworkCore": "5.0.12"
+        },
+        "compile": {
+          "lib/net5.0/Aertssen.Framework.Audit.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Aertssen.Framework.Audit.Core.dll": {}
+        }
+      },
+      "Aertssen.Framework.Audit.Data/1.0.1.2022030304": {
+        "type": "package",
+        "dependencies": {
+          "Aertssen.Framework.Audit.Contracts": "1.0.1.2022030304",
+          "Aertssen.Framework.Audit.Core": "1.0.1.2022030304",
+          "Aertssen.Framework.Data": "1.0.1.2022030307"
+        },
+        "compile": {
+          "lib/net5.0/Aertssen.Framework.Audit.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Aertssen.Framework.Audit.Data.dll": {}
+        }
+      },
+      "Aertssen.Framework.Audit.Infra/1.0.1.2022030304": {
+        "type": "package",
+        "dependencies": {
+          "Aertssen.Framework.Audit.Contracts": "1.0.1.2022030304",
+          "Aertssen.Framework.Audit.Core": "1.0.1.2022030304",
+          "Aertssen.Framework.Audit.Data": "1.0.1.2022030304",
+          "Aertssen.Framework.Infra": "1.0.1.2022030307",
+          "Aertssen.Framework.Services.Cqrs": "1.0.1.2022030307",
+          "Aertssen.Framework.Templates": "1.0.1.2022030307"
+        },
+        "compile": {
+          "lib/net5.0/Aertssen.Framework.Audit.Infra.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Aertssen.Framework.Audit.Infra.dll": {}
+        }
+      },
+      "Aertssen.Framework.Core/1.0.4.2022042501": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
@@ -29,10 +87,10 @@
           "lib/net5.0/Aertssen.Framework.Core.dll": {}
         }
       },
-      "Aertssen.Framework.Data/1.0.4": {
+      "Aertssen.Framework.Data/1.0.4.2022042501": {
         "type": "package",
         "dependencies": {
-          "Aertssen.Framework.Core": "1.0.4",
+          "Aertssen.Framework.Core": "1.0.4.2022042501",
           "Microsoft.EntityFrameworkCore": "5.0.10",
           "Microsoft.EntityFrameworkCore.Proxies": "5.0.10",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
@@ -45,10 +103,10 @@
           "lib/net5.0/Aertssen.Framework.Data.dll": {}
         }
       },
-      "Aertssen.Framework.Infra/1.0.4": {
+      "Aertssen.Framework.Infra/1.0.4.2022042501": {
         "type": "package",
         "dependencies": {
-          "Aertssen.Framework.Core": "1.0.4",
+          "Aertssen.Framework.Core": "1.0.4.2022042501",
           "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "Castle.Core": "4.4.1",
@@ -66,13 +124,26 @@
           "lib/net5.0/Aertssen.Framework.Infra.dll": {}
         }
       },
-      "Aertssen.Framework.Templates/1.0.4": {
-        "type": "package"
-      },
-      "Aertssen.Framework.Tests/1.0.4": {
+      "Aertssen.Framework.Services.Cqrs/1.0.1.2022030307": {
         "type": "package",
         "dependencies": {
-          "Aertssen.Framework.Core": "1.0.4",
+          "Aertssen.Framework.Api.Contracts": "1.0.1.2022030307",
+          "Aertssen.Framework.Infra": "1.0.1.2022030307"
+        },
+        "compile": {
+          "lib/net5.0/Aertssen.Framework.Services.Cqrs.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Aertssen.Framework.Services.Cqrs.dll": {}
+        }
+      },
+      "Aertssen.Framework.Templates/1.0.4.2022042501": {
+        "type": "package"
+      },
+      "Aertssen.Framework.Tests/1.0.4.2022042501": {
+        "type": "package",
+        "dependencies": {
+          "Aertssen.Framework.Core": "1.0.4.2022042501",
           "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
           "Moq": "4.16.1",
           "Moq.AutoMock": "3.0.0",
@@ -242,11 +313,11 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/5.0.10": {
+      "Microsoft.EntityFrameworkCore/5.0.12": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.10",
-          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.12",
+          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.12",
           "Microsoft.Extensions.Caching.Memory": "5.0.0",
           "Microsoft.Extensions.DependencyInjection": "5.0.2",
           "Microsoft.Extensions.Logging": "5.0.0",
@@ -261,7 +332,7 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/5.0.10": {
+      "Microsoft.EntityFrameworkCore.Abstractions/5.0.12": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -270,7 +341,7 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/5.0.10": {
+      "Microsoft.EntityFrameworkCore.Analyzers/5.0.12": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -1836,7 +1907,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Aertssen.Framework.Api.Contracts": "1.0.4",
+          "Aertssen.Framework.Api.Contracts": "1.0.4.2022042501",
           "MyTemplate.Dto": "1.0.0"
         },
         "compile": {
@@ -1850,7 +1921,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Aertssen.Framework.Templates": "1.0.4",
+          "Aertssen.Framework.Templates": "1.0.4.2022042501",
           "Microsoft.Extensions.Configuration.Json": "5.0.0",
           "MyTemplate.Data": "1.0.0",
           "MyTemplate.Domain": "1.0.0",
@@ -1868,8 +1939,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Aertssen.Framework.Data": "1.0.4",
-          "Aertssen.Framework.Infra": "1.0.4",
+          "Aertssen.Framework.Audit.Infra": "1.0.1.2022030304",
+          "Aertssen.Framework.Data": "1.0.4.2022042501",
+          "Aertssen.Framework.Infra": "1.0.4.2022042501",
           "MyTemplate.Domain": "1.0.0"
         },
         "compile": {
@@ -1883,8 +1955,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Aertssen.Framework.Core": "1.0.4",
-          "Aertssen.Framework.Templates": "1.0.4"
+          "Aertssen.Framework.Audit.Core": "1.0.1.2022030304",
+          "Aertssen.Framework.Core": "1.0.4.2022042501",
+          "Aertssen.Framework.Templates": "1.0.4.2022042501"
         },
         "compile": {
           "bin/placeholder/MyTemplate.Domain.dll": {}
@@ -1916,58 +1989,109 @@
     }
   },
   "libraries": {
-    "Aertssen.Framework.Api.Contracts/1.0.4": {
-      "sha512": "3Xnt7noNn5QzqVueq41BIYhQsV9UWFV6pmWU5jva2IgyAV7nwAupU5AI5SjB6z9vW1/ZwDu1eUFqx9hWtYhz3w==",
+    "Aertssen.Framework.Api.Contracts/1.0.4.2022042501": {
+      "sha512": "W2+2pBelTwsrvKxioZHfKGNqq8YAEpRBlSYOO+ynJGJiKJe/3uCbCYAEmtMdGVeA8JgTCs5c2U4/+d+cEKZ3OA==",
       "type": "package",
-      "path": "aertssen.framework.api.contracts/1.0.4",
+      "path": "aertssen.framework.api.contracts/1.0.4.2022042501",
       "files": [
         ".nupkg.metadata",
-        "aertssen.framework.api.contracts.1.0.4.nupkg.sha512",
+        "aertssen.framework.api.contracts.1.0.4.2022042501.nupkg.sha512",
         "aertssen.framework.api.contracts.nuspec",
-        "lib/net5.0/Aertssen.Framework.Api.Contracts.dll",
-        "lib/netcoreapp3.1/Aertssen.Framework.Api.Contracts.dll"
+        "lib/net5.0/Aertssen.Framework.Api.Contracts.dll"
       ]
     },
-    "Aertssen.Framework.Core/1.0.4": {
-      "sha512": "nwzZyzyI5IUtq9Ko5lVUDyjZchrZnG+jS811jp7JUnLP9cWmvQUuyKf72vRlVNCzKEsq95oM2ppj5vy5zTa1Mw==",
+    "Aertssen.Framework.Audit.Contracts/1.0.1.2022030304": {
+      "sha512": "Pp+oqbks1mziav1AB6ZYXFyJS8u4LVuSV5gxPQriKFNZ7cbSFGv/pfkarY/tJ+CmL6BexVN5GTkk0/tttp75KA==",
       "type": "package",
-      "path": "aertssen.framework.core/1.0.4",
+      "path": "aertssen.framework.audit.contracts/1.0.1.2022030304",
       "files": [
         ".nupkg.metadata",
-        "aertssen.framework.core.1.0.4.nupkg.sha512",
+        "aertssen.framework.audit.contracts.1.0.1.2022030304.nupkg.sha512",
+        "aertssen.framework.audit.contracts.nuspec",
+        "lib/net5.0/Aertssen.Framework.Audit.Contracts.dll"
+      ]
+    },
+    "Aertssen.Framework.Audit.Core/1.0.1.2022030304": {
+      "sha512": "N7eZzl0U4m6nmKtJfIHuF+hnr+r7Je6gGhA9t3wZ81a0EiWqGKyZWTNidcjkfIMwF0edafsNcNc+Fs4CUU/tKQ==",
+      "type": "package",
+      "path": "aertssen.framework.audit.core/1.0.1.2022030304",
+      "files": [
+        ".nupkg.metadata",
+        "aertssen.framework.audit.core.1.0.1.2022030304.nupkg.sha512",
+        "aertssen.framework.audit.core.nuspec",
+        "lib/net5.0/Aertssen.Framework.Audit.Core.dll"
+      ]
+    },
+    "Aertssen.Framework.Audit.Data/1.0.1.2022030304": {
+      "sha512": "xXfH+UVYWKTFUQOBV9/QCHGAWJV+OOETMWuL5HpwXIiU+4PvTousPy8puDBMAXiVg9IYMERo2JffHDurLu8mwQ==",
+      "type": "package",
+      "path": "aertssen.framework.audit.data/1.0.1.2022030304",
+      "files": [
+        ".nupkg.metadata",
+        "aertssen.framework.audit.data.1.0.1.2022030304.nupkg.sha512",
+        "aertssen.framework.audit.data.nuspec",
+        "lib/net5.0/Aertssen.Framework.Audit.Data.dll"
+      ]
+    },
+    "Aertssen.Framework.Audit.Infra/1.0.1.2022030304": {
+      "sha512": "1kNbiFLbdFgtVXgSd/K8VefmJQkrpJbYIRz350ICvaE1kC3v354VTGzdiXz7DzVYAN1oKw2r45MnjtmEjlxhrw==",
+      "type": "package",
+      "path": "aertssen.framework.audit.infra/1.0.1.2022030304",
+      "files": [
+        ".nupkg.metadata",
+        "aertssen.framework.audit.infra.1.0.1.2022030304.nupkg.sha512",
+        "aertssen.framework.audit.infra.nuspec",
+        "lib/net5.0/Aertssen.Framework.Audit.Infra.dll"
+      ]
+    },
+    "Aertssen.Framework.Core/1.0.4.2022042501": {
+      "sha512": "5Y+3Ig1Bp6H2W6JdeFILMWirtHrpCQOxsNFmNwzzHbLOwF44KZKj+1h8UJmz3emdO5fmiGrbt/WYxAgZe1xvFQ==",
+      "type": "package",
+      "path": "aertssen.framework.core/1.0.4.2022042501",
+      "files": [
+        ".nupkg.metadata",
+        "aertssen.framework.core.1.0.4.2022042501.nupkg.sha512",
         "aertssen.framework.core.nuspec",
-        "lib/net5.0/Aertssen.Framework.Core.dll",
-        "lib/netcoreapp3.1/Aertssen.Framework.Core.dll"
+        "lib/net5.0/Aertssen.Framework.Core.dll"
       ]
     },
-    "Aertssen.Framework.Data/1.0.4": {
-      "sha512": "dZdpjnGw1gYNuFlB4a+HDf2ns0I/usXTYJuouFDgLu47YD9LqQC5Oqdi+BU8uzzh6jAHIQS1aV75ggXl902FCQ==",
+    "Aertssen.Framework.Data/1.0.4.2022042501": {
+      "sha512": "8PRJKDe5TXepAIhcUK5HkYNFG9F0Ijgh62wetEccIQK+RnmIvk9SiSWuLt05ALy2Vhlqb959EibQgpMlXUfjGQ==",
       "type": "package",
-      "path": "aertssen.framework.data/1.0.4",
+      "path": "aertssen.framework.data/1.0.4.2022042501",
       "files": [
         ".nupkg.metadata",
-        "aertssen.framework.data.1.0.4.nupkg.sha512",
+        "aertssen.framework.data.1.0.4.2022042501.nupkg.sha512",
         "aertssen.framework.data.nuspec",
-        "lib/net5.0/Aertssen.Framework.Data.dll",
-        "lib/netcoreapp3.1/Aertssen.Framework.Data.dll"
+        "lib/net5.0/Aertssen.Framework.Data.dll"
       ]
     },
-    "Aertssen.Framework.Infra/1.0.4": {
-      "sha512": "CfLF8zdNZPrwC6wxEX6+ziDnyrHR/8vAxjl3exYTJ5BWBYSdepnlMex/dbENTop0QlgGDc9aLfyh7+NnOCD9ZA==",
+    "Aertssen.Framework.Infra/1.0.4.2022042501": {
+      "sha512": "mfo1Im8dkZZGHpxG3JsyYOw44aEgxAe32BzoCNLeT0t/A7l/KxRbWlmzQwnzO9qfq7iGS944j+7Y4smcrkBnMA==",
       "type": "package",
-      "path": "aertssen.framework.infra/1.0.4",
+      "path": "aertssen.framework.infra/1.0.4.2022042501",
       "files": [
         ".nupkg.metadata",
-        "aertssen.framework.infra.1.0.4.nupkg.sha512",
+        "aertssen.framework.infra.1.0.4.2022042501.nupkg.sha512",
         "aertssen.framework.infra.nuspec",
-        "lib/net5.0/Aertssen.Framework.Infra.dll",
-        "lib/netcoreapp3.1/Aertssen.Framework.Infra.dll"
+        "lib/net5.0/Aertssen.Framework.Infra.dll"
       ]
     },
-    "Aertssen.Framework.Templates/1.0.4": {
-      "sha512": "rwiQQfIXIKiJqpopC+YW1c9apxWJ09vminfz07lzACapwjOG5gbekj4qLWX8w2BJdV1VOslBNqhnlDczBOUiTg==",
+    "Aertssen.Framework.Services.Cqrs/1.0.1.2022030307": {
+      "sha512": "QbkzGSQSxKlv5RgJ0ecKPKoF+cw1XPdeiu5bLfOXj1GyWg+mwSU68XFI+dsqGioe+YRw6v8C1tbMCyBx7Ub06g==",
       "type": "package",
-      "path": "aertssen.framework.templates/1.0.4",
+      "path": "aertssen.framework.services.cqrs/1.0.1.2022030307",
+      "files": [
+        ".nupkg.metadata",
+        "aertssen.framework.services.cqrs.1.0.1.2022030307.nupkg.sha512",
+        "aertssen.framework.services.cqrs.nuspec",
+        "lib/net5.0/Aertssen.Framework.Services.Cqrs.dll"
+      ]
+    },
+    "Aertssen.Framework.Templates/1.0.4.2022042501": {
+      "sha512": "Q69dpV/vjcS7RGno1jIYk0hl6puQ4Qvkj+FTxmJYxqgZODaiq0h2SfPevDOfwRM8ZQXFIPLKL10cDFD5PvawxQ==",
+      "type": "package",
+      "path": "aertssen.framework.templates/1.0.4.2022042501",
       "files": [
         ".nupkg.metadata",
         "T4/ModelBuilders.cs",
@@ -1981,20 +2105,19 @@
         "T4/index-template.ttinclude",
         "T4/models-template.ttinclude",
         "T4/requests-template.ttinclude",
-        "aertssen.framework.templates.1.0.4.nupkg.sha512",
+        "aertssen.framework.templates.1.0.4.2022042501.nupkg.sha512",
         "aertssen.framework.templates.nuspec"
       ]
     },
-    "Aertssen.Framework.Tests/1.0.4": {
-      "sha512": "jIeCkFM1tI1t0BIPCZZjjAfO6vaiiPmGXMGhJ8YYqmmC2YhBwJsr+cOubgBnH8QsS/D3W5qfWS1kna89aGMbxA==",
+    "Aertssen.Framework.Tests/1.0.4.2022042501": {
+      "sha512": "yr/w168+y5niel3oZFy7muB1n6Z6+4xlJM9Qd7xWd0X/eNQ5A2FD8547bS2mGqUe26YFXHmqyDeXa8BdgY9MfA==",
       "type": "package",
-      "path": "aertssen.framework.tests/1.0.4",
+      "path": "aertssen.framework.tests/1.0.4.2022042501",
       "files": [
         ".nupkg.metadata",
-        "aertssen.framework.tests.1.0.4.nupkg.sha512",
+        "aertssen.framework.tests.1.0.4.2022042501.nupkg.sha512",
         "aertssen.framework.tests.nuspec",
-        "lib/net5.0/Aertssen.Framework.Tests.dll",
-        "lib/netcoreapp3.1/Aertssen.Framework.Tests.dll"
+        "lib/net5.0/Aertssen.Framework.Tests.dll"
       ]
     },
     "AutoMapper/10.1.1": {
@@ -2250,45 +2373,45 @@
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb"
       ]
     },
-    "Microsoft.EntityFrameworkCore/5.0.10": {
-      "sha512": "w5+5oewaQWDj4ChxxjLhdxIi98dK+kq7wvqnTco9PodkqHIDMfKk+5fQCQGLQrbhTdNaqyfYE1ApFP66mLXv6Q==",
+    "Microsoft.EntityFrameworkCore/5.0.12": {
+      "sha512": "NsGCTrPfGUXS4QFCLM5SlnfyED8JUswpcnguA3MSTBq6Zjnmkxjzrm6eDg4MBuiebZX2nfGONMavOKRWaZDjMw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/5.0.10",
+      "path": "microsoft.entityframeworkcore/5.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.5.0.10.nupkg.sha512",
+        "microsoft.entityframeworkcore.5.0.12.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/5.0.10": {
-      "sha512": "Ib85lZI/jxvsKcCS0GHVeqBv/JGzEvKa6HkoyxNu0EDmzDoh4OFl+dDKSx4Vr6I5YWT7nQj3sz6I4I0wHSN0xg==",
+    "Microsoft.EntityFrameworkCore.Abstractions/5.0.12": {
+      "sha512": "AWRxHGp55hAAT4P8E/9soD5TpSaD1uBByvEMnhdRopILgbZSh90War+wVBAou3h+6kxV2MSp1WErE1w+BVZtjA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/5.0.10",
+      "path": "microsoft.entityframeworkcore.abstractions/5.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.5.0.12.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/5.0.10": {
-      "sha512": "MBnG+g6jrmK72y4rU+4y2btHrl72i2q3zrXG3pj2zZGXXrG9Q4SlwL5ul0ASmQXYjhJ4VpDfd4o1/gdRPsa2jA==",
+    "Microsoft.EntityFrameworkCore.Analyzers/5.0.12": {
+      "sha512": "MTxvfKtEeQN5E5fBJO/jNfBdcKqw///Pro4uI2o0q8ukMaLsff4TgC8cfPBtzkz6wh55z0b4kldUv2r34Ix3sg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/5.0.10",
+      "path": "microsoft.entityframeworkcore.analyzers/5.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.5.0.10.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.5.0.12.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
@@ -3191,6 +3314,7 @@
       "path": "runtime.native.system/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -3224,6 +3348,7 @@
       "path": "system.collections/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3291,6 +3416,7 @@
       "path": "system.collections.concurrent/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3423,6 +3549,7 @@
       "path": "system.collections.specialized/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3461,6 +3588,7 @@
       "path": "system.componentmodel/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3609,6 +3737,7 @@
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3647,6 +3776,7 @@
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3820,6 +3950,7 @@
       "path": "system.diagnostics.tools/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3917,6 +4048,7 @@
       "path": "system.diagnostics.tracing/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4045,6 +4177,7 @@
       "path": "system.dynamic.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4115,6 +4248,7 @@
       "path": "system.globalization/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4182,6 +4316,7 @@
       "path": "system.globalization.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4243,6 +4378,7 @@
       "path": "system.io/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4472,6 +4608,7 @@
       "path": "system.linq.expressions/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4620,6 +4757,7 @@
       "path": "system.net.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4698,6 +4836,7 @@
       "path": "system.objectmodel/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4767,6 +4906,7 @@
       "path": "system.private.datacontractserialization/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.3/System.Private.DataContractSerialization.dll",
@@ -4931,6 +5071,7 @@
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5077,6 +5218,7 @@
       "path": "system.reflection.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5187,6 +5329,7 @@
       "path": "system.resources.resourcemanager/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5243,6 +5386,7 @@
       "path": "system.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5452,6 +5596,7 @@
       "path": "system.runtime.handles/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6024,6 +6169,7 @@
       "path": "system.text.encoding/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6131,6 +6277,7 @@
       "path": "system.text.encoding.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6353,6 +6500,7 @@
       "path": "system.threading.tasks/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6552,6 +6700,7 @@
       "path": "system.xml.xdocument/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6660,6 +6809,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6757,56 +6907,49 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Aertssen.Framework.Templates >= 1.0.4",
-      "Aertssen.Framework.Tests >= 1.0.4",
+      "Aertssen.Framework.Templates >= 1.0.4.2022042501",
+      "Aertssen.Framework.Tests >= 1.0.4.2022042501",
       "MyTemplate.Api.Contracts >= 1.0.0",
       "MyTemplate.Core >= 1.0.0",
       "MyTemplate.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\patri\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\PDB\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.Tests.Helpers\\MyTemplate.Tests.Helpers.csproj",
+      "projectUniqueName": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.Tests.Helpers\\MyTemplate.Tests.Helpers.csproj",
       "projectName": "MyTemplate.Tests.Helpers",
-      "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.Tests.Helpers\\MyTemplate.Tests.Helpers.csproj",
-      "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.Tests.Helpers\\obj\\",
+      "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.Tests.Helpers\\MyTemplate.Tests.Helpers.csproj",
+      "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+      "outputPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\Tests\\MyTemplate.Tests.Helpers\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "D:\\development\\nuget": {},
-        "D:\\development\\nuget\\Aertssen": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj": {
-              "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj"
+            "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj": {
+              "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Api.Contracts\\MyTemplate.Api.Contracts.csproj"
             },
-            "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj": {
-              "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj"
+            "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj": {
+              "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Core\\MyTemplate.Core.csproj"
             },
-            "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj": {
-              "projectPath": "D:\\code\\pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj"
+            "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj": {
+              "projectPath": "C:\\repos\\Pdbc\\Pdbc.Template\\src\\MyTemplate.Domain\\MyTemplate.Domain.csproj"
             }
           }
         }
@@ -6823,12 +6966,12 @@
         "dependencies": {
           "Aertssen.Framework.Templates": {
             "target": "Package",
-            "version": "[1.0.4, )",
+            "version": "[1.0.4.2022042501, )",
             "generatePathProperty": true
           },
           "Aertssen.Framework.Tests": {
             "target": "Package",
-            "version": "[1.0.4, )"
+            "version": "[1.0.4.2022042501, )"
           }
         },
         "imports": [

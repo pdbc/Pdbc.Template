@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="FW\**" />
+    <EmbeddedResource Remove="FW\**" />
+    <None Remove="FW\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="WebApiService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="FW\WebApiService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aertssen.Framework.Api.ServiceAgents" Version="1.0.1.2022042504" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyTemplate.Api.Contracts\MyTemplate.Api.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

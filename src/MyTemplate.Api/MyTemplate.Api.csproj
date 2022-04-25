@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Aertssen.Framework.Api.Common" Version="1.0.1.2022042504" />
+    <PackageReference Include="Aertssen.Framework.Audit.Contracts" Version="1.0.1.2022030304" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyTemplate.Api.Contracts\MyTemplate.Api.Contracts.csproj" />
+    <ProjectReference Include="..\MyTemplate.Data\MyTemplate.Data.csproj" />
+    <ProjectReference Include="..\MyTemplate.Services.Cqrs\MyTemplate.Services.Cqrs.csproj" />
+  </ItemGroup>
+
+</Project>

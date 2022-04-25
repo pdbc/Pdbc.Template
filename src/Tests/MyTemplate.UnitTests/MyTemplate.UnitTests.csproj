@@ -22,8 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aertssen.Framework.Tests" Version="1.0.4" />
-    <PackageReference Include="Aertssen.Framework.Tests.Infra" Version="1.0.4" />
+    <PackageReference Include="Aertssen.Framework.Tests" Version="1.0.4.2022042501" />
+    <PackageReference Include="Aertssen.Framework.Tests.Infra" Version="1.0.4.2022042501" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
   </ItemGroup>
 

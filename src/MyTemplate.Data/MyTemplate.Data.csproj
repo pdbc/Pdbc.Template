@@ -5,8 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aertssen.Framework.Data" Version="1.0.4" />
-    <PackageReference Include="Aertssen.Framework.Infra" Version="1.0.4" />
+    <PackageReference Include="Aertssen.Framework.Audit.Infra" Version="1.0.1.2022030304" />
+    <PackageReference Include="Aertssen.Framework.Data" Version="1.0.4.2022042501" />
+    <PackageReference Include="Aertssen.Framework.Infra" Version="1.0.4.2022042501" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.10">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

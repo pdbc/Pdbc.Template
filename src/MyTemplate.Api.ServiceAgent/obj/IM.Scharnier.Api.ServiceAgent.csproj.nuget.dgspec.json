@@ -1,0 +1,219 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.ServiceAgent\\IM.Scharnier.Api.ServiceAgent.csproj": {}
+  },
+  "projects": {
+    "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.Contracts\\IM.Scharnier.Api.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.Contracts\\IM.Scharnier.Api.Contracts.csproj",
+        "projectName": "IM.Scharnier.Api.Contracts",
+        "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.Contracts\\IM.Scharnier.Api.Contracts.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Dto\\IM.Scharnier.Dto.csproj": {
+                "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Dto\\IM.Scharnier.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Api.Contracts": {
+              "target": "Package",
+              "version": "[1.0.1.2022042504, )"
+            },
+            "Aertssen.Framework.Audit.Contracts": {
+              "target": "Package",
+              "version": "[1.0.1.2022030304, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[99.0.4844.5100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.ServiceAgent\\IM.Scharnier.Api.ServiceAgent.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.ServiceAgent\\IM.Scharnier.Api.ServiceAgent.csproj",
+        "projectName": "IM.Scharnier.Api.ServiceAgent",
+        "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.ServiceAgent\\IM.Scharnier.Api.ServiceAgent.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.ServiceAgent\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.Contracts\\IM.Scharnier.Api.Contracts.csproj": {
+                "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.Contracts\\IM.Scharnier.Api.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Api.ServiceAgents": {
+              "target": "Package",
+              "version": "[1.0.1.2022042504, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[99.0.4844.5100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Dto\\IM.Scharnier.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Dto\\IM.Scharnier.Dto.csproj",
+        "projectName": "IM.Scharnier.Dto",
+        "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Dto\\IM.Scharnier.Dto.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FileHelpers": {
+              "target": "Package",
+              "version": "[3.5.1, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[99.0.4844.5100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

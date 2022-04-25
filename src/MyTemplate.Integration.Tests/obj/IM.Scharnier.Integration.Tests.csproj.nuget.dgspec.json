@@ -1,0 +1,816 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Integration.Tests\\IM.Scharnier.Integration.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.Contracts\\IM.Scharnier.Api.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.Contracts\\IM.Scharnier.Api.Contracts.csproj",
+        "projectName": "IM.Scharnier.Api.Contracts",
+        "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.Contracts\\IM.Scharnier.Api.Contracts.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Dto\\IM.Scharnier.Dto.csproj": {
+                "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Dto\\IM.Scharnier.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Api.Contracts": {
+              "target": "Package",
+              "version": "[1.0.1.2022042504, )"
+            },
+            "Aertssen.Framework.Audit.Contracts": {
+              "target": "Package",
+              "version": "[1.0.1.2022030304, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[99.0.4844.5100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.ServiceAgent\\IM.Scharnier.Api.ServiceAgent.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.ServiceAgent\\IM.Scharnier.Api.ServiceAgent.csproj",
+        "projectName": "IM.Scharnier.Api.ServiceAgent",
+        "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.ServiceAgent\\IM.Scharnier.Api.ServiceAgent.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.ServiceAgent\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.Contracts\\IM.Scharnier.Api.Contracts.csproj": {
+                "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.Contracts\\IM.Scharnier.Api.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Api.ServiceAgents": {
+              "target": "Package",
+              "version": "[1.0.1.2022042504, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[99.0.4844.5100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Core\\IM.Scharnier.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Core\\IM.Scharnier.Core.csproj",
+        "projectName": "IM.Scharnier.Core",
+        "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Core\\IM.Scharnier.Core.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Data\\IM.Scharnier.Data.csproj": {
+                "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Data\\IM.Scharnier.Data.csproj"
+              },
+              "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Dto\\IM.Scharnier.Dto.csproj": {
+                "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Dto\\IM.Scharnier.Dto.csproj"
+              },
+              "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.I18N\\IM.Scharnier.I18N.csproj": {
+                "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.I18N\\IM.Scharnier.I18N.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Audit.Contracts": {
+              "target": "Package",
+              "version": "[1.0.1.2022030304, )"
+            },
+            "Aertssen.Framework.Audit.Infra": {
+              "target": "Package",
+              "version": "[1.0.1.2022030304, )"
+            },
+            "Aertssen.Framework.Infra": {
+              "target": "Package",
+              "version": "[1.0.1.2022042504, )"
+            },
+            "Aertssen.Framework.Templates": {
+              "target": "Package",
+              "version": "[1.0.1.2022042504, )",
+              "generatePathProperty": true
+            },
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Azure": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[99.0.4844.5100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Data\\IM.Scharnier.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Data\\IM.Scharnier.Data.csproj",
+        "projectName": "IM.Scharnier.Data",
+        "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Data\\IM.Scharnier.Data.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Domain\\IM.Scharnier.Domain.csproj": {
+                "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Domain\\IM.Scharnier.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Audit.Contracts": {
+              "target": "Package",
+              "version": "[1.0.1.2022030304, )"
+            },
+            "Aertssen.Framework.Audit.Infra": {
+              "target": "Package",
+              "version": "[1.0.1.2022030304, )"
+            },
+            "Aertssen.Framework.Data": {
+              "target": "Package",
+              "version": "[1.0.1.2022042504, )"
+            },
+            "Aertssen.Framework.Infra": {
+              "target": "Package",
+              "version": "[1.0.1.2022042504, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[99.0.4844.5100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Domain\\IM.Scharnier.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Domain\\IM.Scharnier.Domain.csproj",
+        "projectName": "IM.Scharnier.Domain",
+        "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Domain\\IM.Scharnier.Domain.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Audit.Core": {
+              "target": "Package",
+              "version": "[1.0.1.2022030304, )"
+            },
+            "Aertssen.Framework.Core": {
+              "target": "Package",
+              "version": "[1.0.1.2022042504, )"
+            },
+            "Aertssen.Framework.Templates": {
+              "target": "Package",
+              "version": "[1.0.1.2022042504, )",
+              "generatePathProperty": true
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[99.0.4844.5100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Dto\\IM.Scharnier.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Dto\\IM.Scharnier.Dto.csproj",
+        "projectName": "IM.Scharnier.Dto",
+        "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Dto\\IM.Scharnier.Dto.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FileHelpers": {
+              "target": "Package",
+              "version": "[3.5.1, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[99.0.4844.5100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.I18N\\IM.Scharnier.I18N.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.I18N\\IM.Scharnier.I18N.csproj",
+        "projectName": "IM.Scharnier.I18N",
+        "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.I18N\\IM.Scharnier.I18N.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.I18N\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[99.0.4844.5100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Integration.Tests\\IM.Scharnier.Integration.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Integration.Tests\\IM.Scharnier.Integration.Tests.csproj",
+        "projectName": "IM.Scharnier.Integration.Tests",
+        "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Integration.Tests\\IM.Scharnier.Integration.Tests.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Integration.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.ServiceAgent\\IM.Scharnier.Api.ServiceAgent.csproj": {
+                "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.ServiceAgent\\IM.Scharnier.Api.ServiceAgent.csproj"
+              },
+              "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Data\\IM.Scharnier.Data.csproj": {
+                "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Data\\IM.Scharnier.Data.csproj"
+              },
+              "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Services.Cqrs\\IM.Scharnier.Services.Cqrs.csproj": {
+                "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Services.Cqrs\\IM.Scharnier.Services.Cqrs.csproj"
+              },
+              "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Tests.Helpers\\IM.Scharnier.Tests.Helpers.csproj": {
+                "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Tests.Helpers\\IM.Scharnier.Tests.Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Tests.Infra": {
+              "target": "Package",
+              "version": "[1.0.1.2022042504, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[99.0.4844.5100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Services.Cqrs\\IM.Scharnier.Services.Cqrs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Services.Cqrs\\IM.Scharnier.Services.Cqrs.csproj",
+        "projectName": "IM.Scharnier.Services.Cqrs",
+        "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Services.Cqrs\\IM.Scharnier.Services.Cqrs.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Services.Cqrs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.Contracts\\IM.Scharnier.Api.Contracts.csproj": {
+                "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.Contracts\\IM.Scharnier.Api.Contracts.csproj"
+              },
+              "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Core\\IM.Scharnier.Core.csproj": {
+                "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Core\\IM.Scharnier.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Services.Cqrs": {
+              "target": "Package",
+              "version": "[1.0.1.2022042504, )"
+            },
+            "Aertssen.Framework.Templates": {
+              "target": "Package",
+              "version": "[1.0.1.2022042504, )",
+              "generatePathProperty": true
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[99.0.4844.5100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Tests.Helpers\\IM.Scharnier.Tests.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Tests.Helpers\\IM.Scharnier.Tests.Helpers.csproj",
+        "projectName": "IM.Scharnier.Tests.Helpers",
+        "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Tests.Helpers\\IM.Scharnier.Tests.Helpers.csproj",
+        "packagesPath": "C:\\Users\\PDB\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Tests.Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/aertssen/Development/_packaging/Aertssen/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.Contracts\\IM.Scharnier.Api.Contracts.csproj": {
+                "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Api.Contracts\\IM.Scharnier.Api.Contracts.csproj"
+              },
+              "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Core\\IM.Scharnier.Core.csproj": {
+                "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Core\\IM.Scharnier.Core.csproj"
+              },
+              "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Domain\\IM.Scharnier.Domain.csproj": {
+                "projectPath": "C:\\repos\\Development\\IM.Scharnier\\IM.Scharnier.Domain\\IM.Scharnier.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aertssen.Framework.Templates": {
+              "target": "Package",
+              "version": "[1.0.1.2022042504, )",
+              "generatePathProperty": true
+            },
+            "Aertssen.Framework.Tests": {
+              "target": "Package",
+              "version": "[1.0.1.2022042504, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[99.0.4844.5100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
