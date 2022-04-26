@@ -17,6 +17,10 @@ dotnet new -i PdbcTemplate.1.0.1.nupkg
 
 dotnet new pdbc-api-core --name Locations
 
+
+
+dotnet new --uninstall PdbcTemplate
+
 ## Projects
 
 ### 1. Domain project

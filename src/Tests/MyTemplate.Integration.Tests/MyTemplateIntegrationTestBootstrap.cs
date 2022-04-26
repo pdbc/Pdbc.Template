@@ -10,7 +10,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Http;
 using System.Security.Principal;
-using MyTemplate.Services.Cqrs.T4;
 
 namespace MyTemplate.Integration.Tests
 {

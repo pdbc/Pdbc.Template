@@ -6,15 +6,10 @@ using Aertssen.Framework.Services.Cqrs.Base;
 using AutoMapper;
 using MediatR;
 using MyTemplate.Api.Contracts.Requests.MyEntity;
-using MyTemplate.Api.Contracts.Services;
 using MyTemplate.Core.CQRS.MyEntity.Store;
 
 namespace MyTemplate.Services.Cqrs
 {
-    public interface IMyEntityCqrsService : IMyEntityService
-    {
-
-    }
     public class MyEntityCqrsService : CqrsService, IMyEntityCqrsService
     {
         public MyEntityCqrsService(IMediator mediator, IMapper mapper, IValidationBag validationBag) 

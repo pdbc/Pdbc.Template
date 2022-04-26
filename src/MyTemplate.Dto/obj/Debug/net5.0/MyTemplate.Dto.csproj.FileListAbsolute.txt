@@ -21,3 +21,4 @@ C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Dto\obj\Debug\net5.0\MyTemplate.Dto.c
 C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Dto\obj\Debug\net5.0\MyTemplate.Dto.dll
 C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Dto\obj\Debug\net5.0\ref\MyTemplate.Dto.dll
 C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Dto\obj\Debug\net5.0\MyTemplate.Dto.pdb
+C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Dto\obj\Debug\net5.0\MyTemplate.Dto.csproj.AssemblyReference.cache

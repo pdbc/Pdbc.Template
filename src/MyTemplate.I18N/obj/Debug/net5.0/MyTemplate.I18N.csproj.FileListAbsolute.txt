@@ -25,3 +25,4 @@ C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.I18N\obj\Debug\net5.0\MyTemplate.I18N
 C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.I18N\obj\Debug\net5.0\MyTemplate.I18N.dll
 C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.I18N\obj\Debug\net5.0\ref\MyTemplate.I18N.dll
 C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.I18N\obj\Debug\net5.0\MyTemplate.I18N.pdb
+C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.I18N\obj\Debug\net5.0\MyTemplate.I18N.csproj.AssemblyReference.cache

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace MyTemplate.Services.Cqrs.T4
+namespace MyTemplate.Services.Cqrs
 {
     public class CqrsServiceRequestToCqrsMappings : Profile
     {

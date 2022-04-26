@@ -21,7 +21,6 @@ using MyTemplate.Api.Extensions;
 using MyTemplate.Core;
 using MyTemplate.Data;
 using MyTemplate.Services.Cqrs;
-using MyTemplate.Services.Cqrs.T4;
 using Aertssen.Framework.Audit.Infra;
 
 namespace MyTemplate.Api

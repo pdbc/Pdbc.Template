@@ -33,9 +33,10 @@
     <file src="C:\repos\Pdbc\Pdbc.Template\src\Apps\MyTemplate.DatabaseMigrator\ClearDatabaseService.cs" target="content\src\Apps\MyTemplate.DatabaseMigrator\ClearDatabaseService.cs" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\Apps\MyTemplate.DatabaseMigrator\MyTemplate.DatabaseMigrator.csproj" target="content\src\Apps\MyTemplate.DatabaseMigrator\MyTemplate.DatabaseMigrator.csproj" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\Apps\MyTemplate.DatabaseMigrator\Program.cs" target="content\src\Apps\MyTemplate.DatabaseMigrator\Program.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\cli-configuration.json" target="content\src\cli-configuration.json" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\MyTemplate.Api.Contracts.csproj" target="content\src\MyTemplate.Api.Contracts\MyTemplate.Api.Contracts.csproj" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\Requests\MyEntity\StoreMyEntityRequest.cs" target="content\src\MyTemplate.Api.Contracts\Requests\MyEntity\StoreMyEntityRequest.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\Services\IReservationService.cs" target="content\src\MyTemplate.Api.Contracts\Services\IReservationService.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Api.Contracts\Services\IMyEntityService.cs" target="content\src\MyTemplate.Api.Contracts\Services\IMyEntityService.cs" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Api.ServiceAgent\FW\WebApiService.cs" target="content\src\MyTemplate.Api.ServiceAgent\FW\WebApiService.cs" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Api.ServiceAgent\MyTemplate.Api.ServiceAgent.csproj" target="content\src\MyTemplate.Api.ServiceAgent\MyTemplate.Api.ServiceAgent.csproj" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Api.ServiceAgent\MyTemplate.Api.ServiceAgent.user" target="content\src\MyTemplate.Api.ServiceAgent\MyTemplate.Api.ServiceAgent.user" />
@@ -63,10 +64,6 @@
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Core\T4\CqrsClassesBuilders.cs" target="content\src\MyTemplate.Core\T4\CqrsClassesBuilders.cs" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Core\T4\CqrsClassesBuilders.tt" target="content\src\MyTemplate.Core\T4\CqrsClassesBuilders.tt" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Core\Validators\StoreMyEntityDtoValidator.cs" target="content\src\MyTemplate.Core\Validators\StoreMyEntityDtoValidator.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.DatabaseMigrator\appsettings.json" target="content\src\MyTemplate.DatabaseMigrator\appsettings.json" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.DatabaseMigrator\ClearDatabaseService.cs" target="content\src\MyTemplate.DatabaseMigrator\ClearDatabaseService.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.DatabaseMigrator\MyTemplate.DatabaseMigrator.csproj" target="content\src\MyTemplate.DatabaseMigrator\MyTemplate.DatabaseMigrator.csproj" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.DatabaseMigrator\Program.cs" target="content\src\MyTemplate.DatabaseMigrator\Program.cs" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Data\Configurations\MyEntityConfiguration.cs" target="content\src\MyTemplate.Data\Configurations\MyEntityConfiguration.cs" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Data\DataSettings.cs" target="content\src\MyTemplate.Data\DataSettings.cs" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Data\MyTemplate.Data.csproj" target="content\src\MyTemplate.Data\MyTemplate.Data.csproj" />
@@ -76,6 +73,7 @@
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Data\MyTemplateDbContextFactory.cs" target="content\src\MyTemplate.Data\MyTemplateDbContextFactory.cs" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Data\Pdbc.Demo.Data.csproj.user" target="content\src\MyTemplate.Data\Pdbc.Demo.Data.csproj.user" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Data\Repositories\MyEntityRepository.cs" target="content\src\MyTemplate.Data\Repositories\MyEntityRepository.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Domain\Model\IInterfacingEntity.cs" target="content\src\MyTemplate.Domain\Model\IInterfacingEntity.cs" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Domain\Model\MyEntity.cs" target="content\src\MyTemplate.Domain\Model\MyEntity.cs" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Domain\MyTemplate.Domain.csproj" target="content\src\MyTemplate.Domain\MyTemplate.Domain.csproj" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Domain\T4\ModelBuilders.cs" target="content\src\MyTemplate.Domain\T4\ModelBuilders.cs" />
@@ -87,43 +85,44 @@
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.I18N\Errors.Designer.cs" target="content\src\MyTemplate.I18N\Errors.Designer.cs" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.I18N\Errors.resx" target="content\src\MyTemplate.I18N\Errors.resx" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.I18N\MyTemplate.I18N.csproj" target="content\src\MyTemplate.I18N\MyTemplate.I18N.csproj" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Integration.Tests\IntegrationTests\BaseScharnierServiceTest.cs" target="content\src\MyTemplate.Integration.Tests\IntegrationTests\BaseScharnierServiceTest.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Integration.Tests\MyTemplate.Integration.Tests.csproj" target="content\src\MyTemplate.Integration.Tests\MyTemplate.Integration.Tests.csproj" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Integration.Tests\MyTemplate.Integration.Tests.user" target="content\src\MyTemplate.Integration.Tests\MyTemplate.Integration.Tests.user" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Integration.Tests\MyTemplateDbContextExtensions.cs" target="content\src\MyTemplate.Integration.Tests\MyTemplateDbContextExtensions.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Integration.Tests\MyTemplateExternalIntegrationBaseSpecification.cs" target="content\src\MyTemplate.Integration.Tests\MyTemplateExternalIntegrationBaseSpecification.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Integration.Tests\MyTemplateIntegrationBaseSpecification.cs" target="content\src\MyTemplate.Integration.Tests\MyTemplateIntegrationBaseSpecification.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Integration.Tests\MyTemplateIntegrationInternalBaseSpecification.cs" target="content\src\MyTemplate.Integration.Tests\MyTemplateIntegrationInternalBaseSpecification.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Integration.Tests\MyTemplateIntegrationTestBootstrap.cs" target="content\src\MyTemplate.Integration.Tests\MyTemplateIntegrationTestBootstrap.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Integration.Tests\MyTemplateTestDataObjects.cs" target="content\src\MyTemplate.Integration.Tests\MyTemplateTestDataObjects.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Integration.Tests\MyTemplateTestValues.cs" target="content\src\MyTemplate.Integration.Tests\MyTemplateTestValues.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Integration.Tests\TestCaseService.cs" target="content\src\MyTemplate.Integration.Tests\TestCaseService.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Api\appsettings.development.json" target="content\src\MyTemplate.IntegrationTests.Api\appsettings.development.json" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Api\appsettings.json" target="content\src\MyTemplate.IntegrationTests.Api\appsettings.json" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Api\ClientTokenAccess2.cs" target="content\src\MyTemplate.IntegrationTests.Api\ClientTokenAccess2.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Api\FW\ScharnierTokenAccessWebApiClientProxy.cs" target="content\src\MyTemplate.IntegrationTests.Api\FW\ScharnierTokenAccessWebApiClientProxy.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Api\FW\ScharnierWebApiClientProxy.cs" target="content\src\MyTemplate.IntegrationTests.Api\FW\ScharnierWebApiClientProxy.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Api\MyClientTokenAccess.cs" target="content\src\MyTemplate.IntegrationTests.Api\MyClientTokenAccess.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Api\MyTemplate.IntegrationTests.Api.csproj" target="content\src\MyTemplate.IntegrationTests.Api\MyTemplate.IntegrationTests.Api.csproj" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Api\MyTemplateIntegrationApiODataRequestSpecification.cs" target="content\src\MyTemplate.IntegrationTests.Api\MyTemplateIntegrationApiODataRequestSpecification.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Api\MyTemplateIntegrationApiRequestSpecification.cs" target="content\src\MyTemplate.IntegrationTests.Api\MyTemplateIntegrationApiRequestSpecification.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Api\MyTemplateIntegrationBaseApiRequestSpecification.cs" target="content\src\MyTemplate.IntegrationTests.Api\MyTemplateIntegrationBaseApiRequestSpecification.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Core\appsettings.json" target="content\src\MyTemplate.IntegrationTests.Core\appsettings.json" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Core\DependenciesSpecification.cs" target="content\src\MyTemplate.IntegrationTests.Core\DependenciesSpecification.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Core\MyTemplate.IntegrationTests.Core.csproj" target="content\src\MyTemplate.IntegrationTests.Core\MyTemplate.IntegrationTests.Core.csproj" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Core\MyTemplate.IntegrationTests.Core.user" target="content\src\MyTemplate.IntegrationTests.Core\MyTemplate.IntegrationTests.Core.user" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Core\ScharnierIntegrationCqrsRequestSpecification.cs" target="content\src\MyTemplate.IntegrationTests.Core\ScharnierIntegrationCqrsRequestSpecification.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Data\appSettings.json" target="content\src\MyTemplate.IntegrationTests.Data\appSettings.json" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Data\Base\BaseRepositorySpecification.cs" target="content\src\MyTemplate.IntegrationTests.Data\Base\BaseRepositorySpecification.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Data\Extensions\BaseRepositoryExtensionsSpecification.cs" target="content\src\MyTemplate.IntegrationTests.Data\Extensions\BaseRepositoryExtensionsSpecification.cs" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Data\MyTemplate.IntegrationTests.Data.csproj" target="content\src\MyTemplate.IntegrationTests.Data\MyTemplate.IntegrationTests.Data.csproj" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.IntegrationTests.Data\MyTemplate.IntegrationTests.Data.csproj.DotSettings" target="content\src\MyTemplate.IntegrationTests.Data\MyTemplate.IntegrationTests.Data.csproj.DotSettings" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Services.Cqrs\DemoServicesCqrsModule.cs" target="content\src\MyTemplate.Services.Cqrs\DemoServicesCqrsModule.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Services.Cqrs\IMyEntityCqrsService.cs" target="content\src\MyTemplate.Services.Cqrs\IMyEntityCqrsService.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Services.Cqrs\MyEntityCqrsService.cs" target="content\src\MyTemplate.Services.Cqrs\MyEntityCqrsService.cs" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Services.Cqrs\MyTemplate.Services.Cqrs.csproj" target="content\src\MyTemplate.Services.Cqrs\MyTemplate.Services.Cqrs.csproj" />
-    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Services.Cqrs\ReservationCqrsService.cs" target="content\src\MyTemplate.Services.Cqrs\ReservationCqrsService.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Services.Cqrs\MyTemplateServicesCqrsModule.cs" target="content\src\MyTemplate.Services.Cqrs\MyTemplateServicesCqrsModule.cs" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Services.Cqrs\T4\CqrsServiceRequestMappings.cs" target="content\src\MyTemplate.Services.Cqrs\T4\CqrsServiceRequestMappings.cs" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.Services.Cqrs\T4\CqrsServiceRequestMappings.tt" target="content\src\MyTemplate.Services.Cqrs\T4\CqrsServiceRequestMappings.tt" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\MyTemplate.sln" target="content\src\MyTemplate.sln" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.Integration.Tests\IntegrationTests\BaseScharnierServiceTest.cs" target="content\src\Tests\MyTemplate.Integration.Tests\IntegrationTests\BaseScharnierServiceTest.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.Integration.Tests\MyTemplate.Integration.Tests.csproj" target="content\src\Tests\MyTemplate.Integration.Tests\MyTemplate.Integration.Tests.csproj" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.Integration.Tests\MyTemplate.Integration.Tests.user" target="content\src\Tests\MyTemplate.Integration.Tests\MyTemplate.Integration.Tests.user" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.Integration.Tests\MyTemplateDbContextExtensions.cs" target="content\src\Tests\MyTemplate.Integration.Tests\MyTemplateDbContextExtensions.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.Integration.Tests\MyTemplateExternalIntegrationBaseSpecification.cs" target="content\src\Tests\MyTemplate.Integration.Tests\MyTemplateExternalIntegrationBaseSpecification.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.Integration.Tests\MyTemplateIntegrationBaseSpecification.cs" target="content\src\Tests\MyTemplate.Integration.Tests\MyTemplateIntegrationBaseSpecification.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.Integration.Tests\MyTemplateIntegrationInternalBaseSpecification.cs" target="content\src\Tests\MyTemplate.Integration.Tests\MyTemplateIntegrationInternalBaseSpecification.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.Integration.Tests\MyTemplateIntegrationTestBootstrap.cs" target="content\src\Tests\MyTemplate.Integration.Tests\MyTemplateIntegrationTestBootstrap.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.Integration.Tests\MyTemplateTestDataObjects.cs" target="content\src\Tests\MyTemplate.Integration.Tests\MyTemplateTestDataObjects.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.Integration.Tests\MyTemplateTestValues.cs" target="content\src\Tests\MyTemplate.Integration.Tests\MyTemplateTestValues.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.Integration.Tests\TestCaseService.cs" target="content\src\Tests\MyTemplate.Integration.Tests\TestCaseService.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Api\appsettings.development.json" target="content\src\Tests\MyTemplate.IntegrationTests.Api\appsettings.development.json" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Api\appsettings.json" target="content\src\Tests\MyTemplate.IntegrationTests.Api\appsettings.json" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Api\ClientTokenAccess2.cs" target="content\src\Tests\MyTemplate.IntegrationTests.Api\ClientTokenAccess2.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Api\FW\ScharnierTokenAccessWebApiClientProxy.cs" target="content\src\Tests\MyTemplate.IntegrationTests.Api\FW\ScharnierTokenAccessWebApiClientProxy.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Api\FW\ScharnierWebApiClientProxy.cs" target="content\src\Tests\MyTemplate.IntegrationTests.Api\FW\ScharnierWebApiClientProxy.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Api\MyClientTokenAccess.cs" target="content\src\Tests\MyTemplate.IntegrationTests.Api\MyClientTokenAccess.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Api\MyTemplate.IntegrationTests.Api.csproj" target="content\src\Tests\MyTemplate.IntegrationTests.Api\MyTemplate.IntegrationTests.Api.csproj" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Api\MyTemplateIntegrationApiODataRequestSpecification.cs" target="content\src\Tests\MyTemplate.IntegrationTests.Api\MyTemplateIntegrationApiODataRequestSpecification.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Api\MyTemplateIntegrationApiRequestSpecification.cs" target="content\src\Tests\MyTemplate.IntegrationTests.Api\MyTemplateIntegrationApiRequestSpecification.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Api\MyTemplateIntegrationBaseApiRequestSpecification.cs" target="content\src\Tests\MyTemplate.IntegrationTests.Api\MyTemplateIntegrationBaseApiRequestSpecification.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Core\appsettings.json" target="content\src\Tests\MyTemplate.IntegrationTests.Core\appsettings.json" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Core\DependenciesSpecification.cs" target="content\src\Tests\MyTemplate.IntegrationTests.Core\DependenciesSpecification.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Core\MyTemplate.IntegrationTests.Core.csproj" target="content\src\Tests\MyTemplate.IntegrationTests.Core\MyTemplate.IntegrationTests.Core.csproj" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Core\MyTemplate.IntegrationTests.Core.user" target="content\src\Tests\MyTemplate.IntegrationTests.Core\MyTemplate.IntegrationTests.Core.user" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Core\ScharnierIntegrationCqrsRequestSpecification.cs" target="content\src\Tests\MyTemplate.IntegrationTests.Core\ScharnierIntegrationCqrsRequestSpecification.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Data\appSettings.json" target="content\src\Tests\MyTemplate.IntegrationTests.Data\appSettings.json" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Data\Base\BaseRepositorySpecification.cs" target="content\src\Tests\MyTemplate.IntegrationTests.Data\Base\BaseRepositorySpecification.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Data\Extensions\BaseRepositoryExtensionsSpecification.cs" target="content\src\Tests\MyTemplate.IntegrationTests.Data\Extensions\BaseRepositoryExtensionsSpecification.cs" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Data\MyTemplate.IntegrationTests.Data.csproj" target="content\src\Tests\MyTemplate.IntegrationTests.Data\MyTemplate.IntegrationTests.Data.csproj" />
+    <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.IntegrationTests.Data\MyTemplate.IntegrationTests.Data.csproj.DotSettings" target="content\src\Tests\MyTemplate.IntegrationTests.Data\MyTemplate.IntegrationTests.Data.csproj.DotSettings" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.Tests.Helpers\Api\MyEntity\StoreMyEntityRequestTestDataBuilder.cs" target="content\src\Tests\MyTemplate.Tests.Helpers\Api\MyEntity\StoreMyEntityRequestTestDataBuilder.cs" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.Tests.Helpers\CQRS\Reservations\GetMyEntityQueryTestDataBuilder.cs" target="content\src\Tests\MyTemplate.Tests.Helpers\CQRS\Reservations\GetMyEntityQueryTestDataBuilder.cs" />
     <file src="C:\repos\Pdbc\Pdbc.Template\src\Tests\MyTemplate.Tests.Helpers\Domain\MyEntityTestDataBuilder.cs" target="content\src\Tests\MyTemplate.Tests.Helpers\Domain\MyEntityTestDataBuilder.cs" />
